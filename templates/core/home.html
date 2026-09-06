@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %}MANUGOM Stock · Pneus à Casablanca{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="container-xxl">
+    <div class="hero-content">
+      <span class="hero-kicker"><i class="bi bi-geo-alt-fill"></i> Casablanca · Boulevard Dakhla</span>
+      <h1><span>MANUGOM</span> SARL</h1>
+      <p class="lead">Importateur et distributeur de pneumatiques à Casablanca</p>
+      <p class="text-light-emphasis">Recherchez une dimension, vérifiez le stock et préparez votre commande en quelques étapes.</p>
+      <div class="hero-actions">
+        <a class="btn btn-warning btn-lg" href="{% url 'inventory:catalog' %}"><i class="bi bi-search"></i> Consulter les pneus</a>
+        <a class="btn btn-outline-light btn-lg" href="{% url 'quotes:quote' %}"><i class="bi bi-file-earmark-text"></i> Demander un devis</a>
+        <a class="btn btn-outline-light btn-lg" href="tel:{{ company.phone_link }}"><i class="bi bi-telephone-fill"></i> Appeler</a>
+        <a class="btn btn-whatsapp btn-lg" href="{{ company.whatsapp }}" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      </div>
+      <div class="hero-micro">
+        <span><i class="bi bi-shield-check"></i> Stock contrôlé côté serveur</span>
+        <span><i class="bi bi-box-seam"></i> Retrait ou livraison</span>
+        <span><i class="bi bi-clock"></i> {{ company.hours }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-6 col-lg-3"><div class="trust-item"><i class="bi bi-boxes"></i><div><strong>Stock centralisé</strong><span>Entrées et sorties tracées</span></div></div></div>
+      <div class="col-6 col-lg-3"><div class="trust-item"><i class="bi bi-tags-fill"></i><div><strong>8 marques</strong><span>Catalogue de démonstration</span></div></div></div>
+      <div class="col-6 col-lg-3"><div class="trust-item"><i class="bi bi-truck"></i><div><strong>Commande suivie</strong><span>De la validation à la livraison</span></div></div></div>
+      <div class="col-6 col-lg-3"><div class="trust-item"><i class="bi bi-pin-map-fill"></i><div><strong>222 Bd Dakhla</strong><span>Casablanca</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-white">
+  <div class="container-xxl">
+    <div class="text-center mb-5">
+      <div class="eyebrow">Nos services</div>
+      <h2 class="section-title">Des solutions complètes pour vos pneus</h2>
+    </div>
+    <div class="services-grid">
+      <article class="service-card"><i class="bi bi-cart-check"></i><h3>Vente de pneus</h3><p>Recherche par référence, dimension et usage du véhicule.</p></article>
+      <article class="service-card"><i class="bi bi-wrench-adjustable"></i><h3>Montage</h3><p>Préparation et montage en atelier par une équipe spécialisée.</p></article>
+      <article class="service-card"><i class="bi bi-speedometer"></i><h3>Équilibrage</h3><p>Contrôle destiné à améliorer le confort et la stabilité.</p></article>
+      <article class="service-card"><i class="bi bi-bullseye"></i><h3>Géométrie</h3><p>Réglage du parallélisme pour une usure plus régulière.</p></article>
+      <article class="service-card"><i class="bi bi-tools"></i><h3>Réparation</h3><p>Diagnostic et intervention selon l'état du pneumatique.</p></article>
+      <article class="service-card"><i class="bi bi-globe2"></i><h3>Import & distribution</h3><p>Gestion des approvisionnements et des références multi-marques.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="brand-band section-pad">
+  <div class="container-xxl position-relative">
+    <div class="text-center mb-5">
+      <div class="eyebrow text-warning">Marques proposées</div>
+      <h2 class="section-title">Une sélection multi-marques</h2>
+      <p class="text-secondary mx-auto" style="max-width:680px">Les noms ci-dessous identifient les marques présentes dans le cahier des charges. Les produits affichés restent des données de démonstration.</p>
+    </div>
+    <div class="brand-chip-row">
+      {% for brand in marques %}<a class="brand-chip" href="{% url 'inventory:catalog' %}?marque={{ brand.id }}">{{ brand.nom }}</a>{% empty %}<span class="text-secondary">Les marques seront visibles après le chargement des données de démonstration.</span>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container-xxl">
+    <div class="d-flex justify-content-between align-items-end gap-3 mb-4">
+      <div><div class="eyebrow">Disponibles maintenant</div><h2 class="section-title mb-0">Quelques références en stock</h2></div>
+      <a class="btn btn-dark d-none d-md-inline-flex" href="{% url 'inventory:catalog' %}">Voir tout le catalogue <i class="bi bi-arrow-right ms-2"></i></a>
+    </div>
+    <div class="row g-4">
+      {% for tire in pneus %}<div class="col-sm-6 col-xl-3">{% include 'includes/tire_card.html' %}</div>{% empty %}<div class="col-12"><div class="empty-state"><i class="bi bi-box"></i><h2>Catalogue en préparation</h2><p>Exécutez la commande de données de démonstration indiquée dans le README.</p></div></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="pb-5 pb-lg-6">
+  <div class="container-xxl">
+    <div class="showroom-panel">
+      <div class="row g-0 align-items-stretch">
+        <div class="col-lg-7 showroom-image" role="img" aria-label="Showroom de pneus générique, visuel de démonstration"></div>
+        <div class="col-lg-5 showroom-copy">
+          <div class="eyebrow text-warning">Notre showroom</div>
+          <h2>Un espace pensé pour le stock et le service</h2>
+          <p class="text-secondary">Le visuel est une création de démonstration inspirée de l'univers automobile; il ne reproduit pas une installation officielle.</p>
+          <ul class="list-unstyled mt-4">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Stock organisé par référence et dimension</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Alertes de seuil et traçabilité</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Commandes clients et fournisseurs</li>
+          </ul>
+          <a class="btn btn-warning mt-3" href="{% url 'core:about' %}">Découvrir le projet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+

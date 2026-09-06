@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4E575F"/></marker>
+<marker id="openArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#4E575F" stroke-width="1.5"/></marker>
+<style>
+text{font-family:Segoe UI,Arial,sans-serif;fill:#17191B}.title{font-size:34px;font-weight:800}.subtitle{font-size:17px;fill:#5E6871}.label{font-size:18px;font-weight:650}.small{font-size:15px}.tiny{font-size:13px}.box{fill:#fff;stroke:#4E575F;stroke-width:2}.soft{fill:#F4F6F8;stroke:#889198;stroke-width:1.5}.accent{fill:#FFC400;stroke:#17191B;stroke-width:2}.line{stroke:#4E575F;stroke-width:2;fill:none}.dash{stroke:#879098;stroke-width:1.5;stroke-dasharray:8 7}.note{fill:#FFF8D7;stroke:#B58B00;stroke-width:1.5}.actor{stroke:#17191B;stroke-width:3;fill:none}
+</style></defs>
+<rect width="1800" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="9" fill="#FFC400"/>
+<text x="55" y="62" class="title">MLD — Schéma relationnel</text>
+<text x="55" y="91" class="subtitle">Tables, clés primaires, étrangères et contraintes</text>
+<rect x="90" y="145" width="470" height="112" rx="4" class="box"/>
+<rect x="90" y="145" width="470" height="38" class="accent"/>
+<text x="325" y="171" class="label" text-anchor="middle">accounts_user</text>
+<text x="106" y="218" class="tiny" text-anchor="start">PK id · UQ username,email · role</text>
+<rect x="655" y="145" width="470" height="112" rx="4" class="box"/>
+<rect x="655" y="145" width="470" height="38" class="accent"/>
+<text x="890" y="171" class="label" text-anchor="middle">customers_client</text>
+<text x="671" y="218" class="tiny" text-anchor="start">PK id · FK/UQ utilisateur · UQ numero,email</text>
+<rect x="1220" y="145" width="470" height="112" rx="4" class="box"/>
+<rect x="1220" y="145" width="470" height="38" class="accent"/>
+<text x="1455" y="171" class="label" text-anchor="middle">inventory_marque</text>
+<text x="1236" y="218" class="tiny" text-anchor="start">PK id · UQ nom</text>
+<rect x="90" y="310" width="470" height="112" rx="4" class="box"/>
+<rect x="90" y="310" width="470" height="38" class="accent"/>
+<text x="325" y="336" class="label" text-anchor="middle">inventory_categorie</text>
+<text x="106" y="383" class="tiny" text-anchor="start">PK id · UQ nom</text>
+<rect x="655" y="310" width="470" height="112" rx="4" class="box"/>
+<rect x="655" y="310" width="470" height="38" class="accent"/>
+<text x="890" y="336" class="label" text-anchor="middle">inventory_pneu</text>
+<text x="671" y="383" class="tiny" text-anchor="start">PK id · FK marque,categorie · UQ référence</text>
+<rect x="1220" y="310" width="470" height="112" rx="4" class="box"/>
+<rect x="1220" y="310" width="470" height="38" class="accent"/>
+<text x="1455" y="336" class="label" text-anchor="middle">orders_panier</text>
+<text x="1236" y="383" class="tiny" text-anchor="start">PK id · FK client · UQ conditionnelle actif</text>
+<rect x="90" y="475" width="470" height="112" rx="4" class="box"/>
+<rect x="90" y="475" width="470" height="38" class="accent"/>
+<text x="325" y="501" class="label" text-anchor="middle">orders_lignepanier</text>
+<text x="106" y="548" class="tiny" text-anchor="start">FK panier,pneu · UQ paire</text>
+<rect x="655" y="475" width="470" height="112" rx="4" class="box"/>
+<rect x="655" y="475" width="470" height="38" class="accent"/>
+<text x="890" y="501" class="label" text-anchor="middle">orders_commande</text>
+<text x="671" y="548" class="tiny" text-anchor="start">PK id · FK client · UQ numero</text>
+<rect x="1220" y="475" width="470" height="112" rx="4" class="box"/>
+<rect x="1220" y="475" width="470" height="38" class="accent"/>
+<text x="1455" y="501" class="label" text-anchor="middle">orders_lignecommande</text>
+<text x="1236" y="548" class="tiny" text-anchor="start">FK commande,pneu · instantanés</text>
+<rect x="90" y="640" width="470" height="112" rx="4" class="box"/>
+<rect x="90" y="640" width="470" height="38" class="accent"/>
+<text x="325" y="666" class="label" text-anchor="middle">suppliers_fournisseur</text>
+<text x="106" y="713" class="tiny" text-anchor="start">PK id · UQ raison_sociale</text>
+<rect x="655" y="640" width="470" height="112" rx="4" class="box"/>
+<rect x="655" y="640" width="470" height="38" class="accent"/>
+<text x="890" y="666" class="label" text-anchor="middle">suppliers_approvisionnement</text>
+<text x="671" y="713" class="tiny" text-anchor="start">FK fournisseur,user · UQ numero</text>
+<rect x="1220" y="640" width="470" height="112" rx="4" class="box"/>
+<rect x="1220" y="640" width="470" height="38" class="accent"/>
+<text x="1455" y="666" class="label" text-anchor="middle">suppliers_ligneapprovisionnement</text>
+<text x="1236" y="713" class="tiny" text-anchor="start">FK approvisionnement,pneu · UQ paire</text>
+<rect x="90" y="805" width="470" height="112" rx="4" class="box"/>
+<rect x="90" y="805" width="470" height="38" class="accent"/>
+<text x="325" y="831" class="label" text-anchor="middle">inventory_mouvementstock</text>
+<text x="106" y="878" class="tiny" text-anchor="start">FK pneu,user,commande?,appro?</text>
+<rect x="655" y="805" width="470" height="112" rx="4" class="box"/>
+<rect x="655" y="805" width="470" height="38" class="accent"/>
+<text x="890" y="831" class="label" text-anchor="middle">quotes_demandedevis</text>
+<text x="671" y="878" class="tiny" text-anchor="start">PK id · statut</text>
+<rect x="1220" y="805" width="470" height="112" rx="4" class="box"/>
+<rect x="1220" y="805" width="470" height="38" class="accent"/>
+<text x="1455" y="831" class="label" text-anchor="middle">quotes_messagecontact</text>
+<text x="1236" y="878" class="tiny" text-anchor="start">PK id · lu</text>
+<text x="55" y="1026" class="tiny" fill="#7A838B">MANUGOM Stock · UML cohérent avec Django/SQLite · export SVG technique temporaire</text>
+</svg>

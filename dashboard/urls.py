@@ -1,0 +1,46 @@
+from django.urls import path
+
+from . import views
+
+app_name = "dashboard"
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("pneus/", views.tire_list, name="tires"),
+    path("pneus/ajouter/", views.tire_create, name="tire_create"),
+    path("pneus/<int:pk>/modifier/", views.tire_edit, name="tire_edit"),
+    path("pneus/<int:pk>/archiver/", views.tire_archive, name="tire_archive"),
+    path("marques/", views.brand_list, name="brands"),
+    path("marques/ajouter/", views.brand_create, name="brand_create"),
+    path("marques/<int:pk>/modifier/", views.brand_edit, name="brand_edit"),
+    path("marques/<int:pk>/archiver/", views.brand_archive, name="brand_archive"),
+    path("categories/", views.category_list, name="categories"),
+    path("categories/ajouter/", views.category_create, name="category_create"),
+    path("categories/<int:pk>/modifier/", views.category_edit, name="category_edit"),
+    path("categories/<int:pk>/archiver/", views.category_archive, name="category_archive"),
+    path("clients/", views.client_list, name="clients"),
+    path("clients/ajouter/", views.client_create, name="client_create"),
+    path("clients/<int:pk>/modifier/", views.client_edit, name="client_edit"),
+    path("clients/<int:pk>/archiver/", views.client_archive, name="client_archive"),
+    path("fournisseurs/", views.supplier_list, name="suppliers"),
+    path("fournisseurs/ajouter/", views.supplier_create, name="supplier_create"),
+    path("fournisseurs/<int:pk>/modifier/", views.supplier_edit, name="supplier_edit"),
+    path("fournisseurs/<int:pk>/archiver/", views.supplier_archive, name="supplier_archive"),
+    path("commandes/", views.order_list, name="orders"),
+    path("commandes/<int:pk>/statut/", views.order_status, name="order_status"),
+    path("approvisionnements/", views.supply_list, name="supplies"),
+    path("approvisionnements/ajouter/", views.supply_create, name="supply_create"),
+    path("approvisionnements/<int:pk>/modifier/", views.supply_edit, name="supply_edit"),
+    path("approvisionnements/<int:pk>/recevoir/", views.supply_receive, name="supply_receive"),
+    path("approvisionnements/<int:pk>/annuler/", views.supply_cancel, name="supply_cancel"),
+    path("mouvements/", views.movement_list, name="movements"),
+    path("mouvements/ajouter/", views.movement_create, name="movement_create"),
+    path("alertes/", views.alerts, name="alerts"),
+    path("devis/", views.quote_list, name="quotes"),
+    path("devis/<int:pk>/statut/", views.quote_status, name="quote_status"),
+    path("messages/", views.contact_list, name="contacts"),
+    path("messages/<int:pk>/lecture/", views.contact_toggle, name="contact_toggle"),
+    path("utilisateurs/", views.user_list, name="users"),
+    path("utilisateurs/employe/ajouter/", views.employee_create, name="employee_create"),
+    path("utilisateurs/<int:pk>/basculer/", views.user_toggle, name="user_toggle"),
+]

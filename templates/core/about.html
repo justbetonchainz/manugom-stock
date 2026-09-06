@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}À propos · MANUGOM Stock{% endblock %}
+{% block content %}
+<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Le projet</div><h1>Une gestion fiable, du dépôt à la commande</h1><p>MANUGOM Stock centralise le catalogue, les commandes, les approvisionnements et chaque mouvement de quantité.</p></div></header>
+<section class="section-pad"><div class="container-xxl"><div class="row g-5 align-items-center"><div class="col-lg-6"><div class="eyebrow">Contexte</div><h2 class="section-title">MANUGOM SARL</h2><p class="section-copy">L'entreprise est présentée dans le cahier des charges comme importateur, distributeur et vendeur de pneus et de jantes à Casablanca. L'application constitue un projet académique EMSI de troisième année.</p><p class="section-copy">Elle applique une architecture Django MVT, une base SQLite unique et des transactions courtes pour les opérations sensibles.</p></div><div class="col-lg-6"><div class="panel p-4 p-lg-5"><h3 class="fw-black">Coordonnées fournies</h3><dl class="row mt-4 mb-0"><dt class="col-sm-4">Adresse</dt><dd class="col-sm-8">{{ company.address }}</dd><dt class="col-sm-4">Téléphone</dt><dd class="col-sm-8"><a href="tel:{{ company.phone_link }}">{{ company.phone }}</a></dd><dt class="col-sm-4">E-mail</dt><dd class="col-sm-8"><a href="mailto:{{ company.email }}">{{ company.email }}</a></dd><dt class="col-sm-4">Horaires</dt><dd class="col-sm-8">{{ company.hours }}</dd></dl></div></div></div></div></section>
+{% endblock %}
+

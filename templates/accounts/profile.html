@@ -1,0 +1,4 @@
+{% extends 'base.html' %}
+{% block title %}Mon profil · MANUGOM Stock{% endblock %}
+{% block content %}<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Espace client</div><h1>Mon profil</h1><p>Mettez à jour les coordonnées utilisées pour vos prochaines commandes.</p></div></header><section class="section-pad"><div class="container"><div class="form-shell"><form method="post" class="row g-3">{% csrf_token %}{% for field in form %}<div class="col-md-6"><label class="form-label" for="{{ field.id_for_label }}">{{ field.label }}</label>{{ field }}{{ field.errors }}</div>{% endfor %}<div class="col-12 d-flex gap-2"><button class="btn btn-warning" type="submit">Enregistrer</button><a class="btn btn-outline-dark" href="{% url 'accounts:password_change' %}">Modifier le mot de passe</a></div></form></div></div></section>{% endblock %}
+

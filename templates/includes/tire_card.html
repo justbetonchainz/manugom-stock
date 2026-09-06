@@ -1,0 +1,29 @@
+{% load static %}
+<article class="product-card h-100">
+  <a class="product-visual" href="{% url 'inventory:detail' tire.pk %}">
+    <span class="product-type">{{ tire.get_saison_display }}</span>
+    <img src="{% if tire.image %}{{ tire.image.url }}{% else %}{% static 'images/tire-product.png' %}{% endif %}" alt="Pneu {{ tire.marque.nom }} {{ tire.modele }}" loading="lazy">
+  </a>
+  <div class="product-body">
+    <div class="d-flex justify-content-between align-items-start gap-2">
+      <span class="brand-name">{{ tire.marque.nom }}</span>
+      <span class="stock-dot stock-{{ tire.niveau_stock }}">{{ tire.quantite_disponible }} en stock</span>
+    </div>
+    <h3><a href="{% url 'inventory:detail' tire.pk %}">{{ tire.modele }}</a></h3>
+    <p class="product-ref">{{ tire.reference_interne }} · {{ tire.dimension_complete }}</p>
+    <div class="product-footer">
+      <div><strong>{{ tire.prix_vente|floatformat:2 }}</strong><span>MAD</span></div>
+      <a class="btn btn-outline-dark btn-sm" href="{% url 'inventory:detail' tire.pk %}">Voir</a>
+    </div>
+    {% if user.is_authenticated and not user.is_manager %}
+      <form action="{% url 'orders:add' tire.pk %}" method="post" class="mt-3">
+        {% csrf_token %}<input type="hidden" name="quantite" value="1"><input type="hidden" name="next" value="{{ request.get_full_path }}">
+        <button class="btn btn-warning w-100" type="submit" {% if not tire.disponible %}disabled{% endif %}><i class="bi bi-bag-plus"></i> {% if tire.disponible %}Ajouter au panier{% else %}Indisponible{% endif %}</button>
+      </form>
+    {% elif not user.is_authenticated %}
+      <a class="btn btn-warning w-100 mt-3" href="{% url 'accounts:login' %}?next={% url 'inventory:detail' tire.pk %}"><i class="bi bi-box-arrow-in-right"></i> Se connecter pour commander</a>
+    {% else %}
+      <button class="btn btn-light w-100 mt-3" type="button" disabled>Compte client requis</button>
+    {% endif %}
+  </div>
+</article>

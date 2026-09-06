@@ -1,0 +1,4 @@
+{% extends 'base.html' %}
+{% block title %}Créer un compte · MANUGOM Stock{% endblock %}
+{% block content %}<section class="section-pad"><div class="container"><div class="form-shell"><div class="eyebrow">Nouveau client</div><h1>Créer votre compte</h1><p class="text-secondary">Vos informations servent à préparer et suivre vos commandes.</p><form method="post" class="row g-3 mt-2" novalidate>{% csrf_token %}{% for field in form %}<div class="{% if field.name == 'adresse' %}col-12{% else %}col-md-6{% endif %}"><label class="form-label" for="{{ field.id_for_label }}">{{ field.label }}</label>{{ field }}{{ field.errors }}{% if field.help_text %}<span class="helptext">{{ field.help_text }}</span>{% endif %}</div>{% endfor %}<div class="col-12"><button class="btn btn-warning btn-lg" type="submit">Créer le compte</button><a class="btn btn-link" href="{% url 'accounts:login' %}">J'ai déjà un compte</a></div></form></div></div></section>{% endblock %}
+

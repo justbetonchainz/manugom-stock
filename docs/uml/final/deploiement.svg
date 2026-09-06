@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1460" height="900" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1460 900" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1460" height="900"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-900)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1460" height="900" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="818" width="1460" height="82" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="893" width="1460" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,76%,0%); fill-rule: evenodd;"/>
+			<text x="34" y="858" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1716) scale(1,-1)">Diagramme de déploiement</text>
+			<text x="34" y="835" style="font-family: Helvetica; font-size: 11px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1670) scale(1,-1)">Topologie réelle de l'application Django et persistance locale SQLite</text>
+			<text x="1311.56" y="855" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1710) scale(1,-1)">MANUGOM Stock - UML</text>
+			<rect x="63" y="388" width="315" height="260" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,92%,92%); fill-rule: evenodd;"/>
+			<rect x="55" y="380" width="315" height="260" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="69" y="618" style="font-family: Helvetica-Oblique; font-size: 9.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1236) scale(1,-1)">&lt;&lt;device&gt;&gt;</text>
+			<text x="69" y="597" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1194) scale(1,-1)">Poste client</text>
+			<rect x="73" y="532" width="279" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="85" y="554" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1108) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="174.8059" y="541" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1082) scale(1,-1)">Navigateur web</text>
+			<rect x="543" y="278" width="390" height="480" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,92%,92%); fill-rule: evenodd;"/>
+			<rect x="535" y="270" width="390" height="480" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="549" y="728" style="font-family: Helvetica-Oblique; font-size: 9.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1456) scale(1,-1)">&lt;&lt;executionEnvironment&gt;&gt;</text>
+			<text x="549" y="707" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1414) scale(1,-1)">Serveur applicatif</text>
+			<rect x="553" y="642" width="354" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="565" y="664" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1328) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="687.2161" y="651" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1302) scale(1,-1)">MANUGOM Stock</text>
+			<rect x="553" y="587" width="354" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="565" y="609" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1218) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="704.2093" y="596" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1192) scale(1,-1)">Django 6.1</text>
+			<rect x="553" y="532" width="354" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="565" y="554" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1108) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="694.2847" y="541" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1082) scale(1,-1)">Fichiers static/</text>
+			<rect x="1098" y="433" width="310" height="275" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,92%,92%); fill-rule: evenodd;"/>
+			<rect x="1090" y="425" width="310" height="275" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1104" y="678" style="font-family: Helvetica-Oblique; font-size: 9.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1356) scale(1,-1)">&lt;&lt;device&gt;&gt;</text>
+			<text x="1104" y="657" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1314) scale(1,-1)">Stockage local</text>
+			<rect x="1108" y="592" width="274" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="1120" y="614" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1228) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="1221.1932" y="601" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1202) scale(1,-1)">db.sqlite3</text>
+			<rect x="1108" y="537" width="274" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="1120" y="559" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1118) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="1208.7186" y="546" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1092) scale(1,-1)">Dossier media/</text>
+			<rect x="93" y="103" width="270" height="165" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,92%,92%); fill-rule: evenodd;"/>
+			<rect x="85" y="95" width="270" height="165" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="99" y="238" style="font-family: Helvetica-Oblique; font-size: 9.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,476) scale(1,-1)">&lt;&lt;device&gt;&gt;</text>
+			<text x="99" y="217" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,434) scale(1,-1)">Téléphone client</text>
+			<rect x="103" y="152" width="234" height="38" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="115" y="174" style="font-family: Helvetica-Oblique; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,348) scale(1,-1)">&lt;&lt;artifact&gt;&gt;</text>
+			<text x="175.7881" y="161" style="font-family: Helvetica-Bold; font-size: 10.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,322) scale(1,-1)">Navigateur mobile</text>
+			<polyline points="370 510, 535 510" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<polygon points="535 510, 527.2058 514.5, 527.2058 505.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="418.0815" y="530" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1060) scale(1,-1)">HTTP/HTTPS</text>
+			<text x="399.233" y="493" style="font-family: Helvetica; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,986) scale(1,-1)">HTML + CSS + JavaScript</text>
+			<polyline points="925 565, 1090 565" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.8; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1090 565, 1082.206 569.5, 1082.206 560.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="974.0" y="585" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1170) scale(1,-1)">Django ORM</text>
+			<text x="979.991" y="548" style="font-family: Helvetica; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1096) scale(1,-1)">SQL / fichiers</text>
+			<polyline points="355 178, 535 360" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.5; fill: None; fill-rule: evenodd;"/>
+			<polygon points="535 360, 526.3197 357.6226, 532.7187 351.2939" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="371.375" y="245" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,490) scale(1,-1)">HTTP/HTTPS responsive</text>
+			<rect x="1035" y="110" width="365" height="170" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="1050" y="250" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,500) scale(1,-1)">Contraintes de déploiement</text>
+			<text x="1050" y="224" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,448) scale(1,-1)">- Base unique : SQLite</text>
+			<text x="1050" y="202" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,404) scale(1,-1)">- Aucun serveur PostgreSQL/MySQL</text>
+			<text x="1050" y="180" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,360) scale(1,-1)">- Médias sur le système de fichiers</text>
+			<text x="1050" y="158" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,316) scale(1,-1)">- Démonstration locale : 127.0.0.1:8000</text>
+			<text x="1050" y="136" style="font-family: Helvetica; font-size: 10px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,272) scale(1,-1)">- Transactions courtes pour les écritures critiques</text>
+		</g>
+	</g>
+</svg>

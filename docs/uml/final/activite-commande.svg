@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1480" height="1110" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1480 1110" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1480" height="1110"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1110)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1480" height="1110" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="1028" width="1480" height="82" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="1103" width="1480" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,76%,0%); fill-rule: evenodd;"/>
+			<text x="34" y="1068" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2136) scale(1,-1)">Diagramme d'activité - traitement d'une commande</text>
+			<text x="34" y="1045" style="font-family: Helvetica; font-size: 11px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2090) scale(1,-1)">Flux nominal, décisions, gardes, annulation et restauration conditionnelle du stock</text>
+			<text x="1331.56" y="1065" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2130) scale(1,-1)">MANUGOM Stock - UML</text>
+			<rect x="30" y="55" width="300" height="950" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="30" y="965" width="300" height="40" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
+			<text x="163.332" y="979" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1958) scale(1,-1)">Client</text>
+			<rect x="330" y="55" width="710" height="950" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="330" y="965" width="710" height="40" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
+			<text x="608.3199999999999" y="979" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1958) scale(1,-1)">Système MANUGOM Stock</text>
+			<rect x="1040" y="55" width="410" height="950" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1040" y="965" width="410" height="40" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
+			<text x="1219.992" y="979" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1958) scale(1,-1)">Employé</text>
+			<circle cx="180" cy="925" r="11" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,14%,15%); fill-rule: evenodd;"/>
+			<rect x="70.0" y="829.0" width="220.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="147.03" y="846" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1692) scale(1,-1)">Se connecter</text>
+			<rect x="70.0" y="749.0" width="220.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="129.23775" y="766" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1532) scale(1,-1)">Rechercher un pneu</text>
+			<rect x="540.0" y="749.0" width="220.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="597.7835" y="766" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1532) scale(1,-1)">Afficher disponibilité</text>
+			<polygon points="650 717, 689 690, 650 663, 611 690" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="626.7378" y="687" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1374) scale(1,-1)">En stock ?</text>
+			<rect x="70.0" y="589.0" width="220.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="136.824" y="606" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1212) scale(1,-1)">Ajouter au panier</text>
+			<rect x="70.0" y="509.0" width="220.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="139.4385" y="526" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1052) scale(1,-1)">Valider le panier</text>
+			<rect x="520.0" y="509.0" width="260.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="582.905" y="526" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1052) scale(1,-1)">Contrôler panier et identité</text>
+			<polygon points="650 472, 689 445, 650 418, 611 445" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="625.206" y="442" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,884) scale(1,-1)">Stock OK ?</text>
+			<rect x="517.5" y="334.0" width="265.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="571.23425" y="351" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,702) scale(1,-1)">Créer commande EN_ATTENTE</text>
+			<rect x="1120.0" y="334.0" width="250.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
+			<text x="1184.90325" y="351" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,702) scale(1,-1)">Confirmer la commande</text>
+			<rect x="520.0" y="254.0" width="260.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="591.494" y="271" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,542) scale(1,-1)">Retirer le stock + tracer</text>
+			<polygon points="1245 272, 1284 245, 1245 218, 1206 245" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="1223.5318" y="242" style="font-family: Helvetica-Bold; font-size: 9.2px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,484) scale(1,-1)">Annuler ?</text>
+			<rect x="1110.0" y="134.0" width="270.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1177.30125" y="151" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,302) scale(1,-1)">Préparer puis livrer / retirer</text>
+			<rect x="507.5" y="134.0" width="285.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="568.01075" y="151" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,302) scale(1,-1)">Restaurer le stock une seule fois</text>
+			<circle cx="1245" cy="82" r="14" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 2; fill: none; fill-rule: evenodd;"/>
+			<circle cx="1245" cy="82" r="8" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,14%,15%); fill-rule: evenodd;"/>
+			<rect x="545.0" y="589.0" width="210.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,97%,85%); fill-rule: evenodd;"/>
+			<text x="603.611" y="606" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1212) scale(1,-1)">Signaler la rupture</text>
+			<rect x="532.5" y="71.0" width="235.0" height="42.0" rx="9" ry="9" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="584.93675" y="88" style="font-family: Helvetica-Bold; font-size: 10.5px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,176) scale(1,-1)">Journaliser le mouvement</text>
+			<polyline points="180 914, 180 872" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="180 872, 184.5 879.7942, 175.5 879.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="180 829, 180 792" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="180 792, 184.5 799.7942, 175.5 799.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="290 770, 540 770" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="540 770, 532.2058 774.5, 532.2058 765.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="650 748, 650 718" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="650 718, 654.5 725.7942, 645.5 725.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="625 670, 230 630" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="230 630, 238.2079 626.3082, 237.3012 635.2624" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="470" y="667" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1334) scale(1,-1)">[oui]</text>
+			<polyline points="675 670, 675 632" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="675 632, 679.5 639.7942, 670.5 639.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="685" y="650" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1300) scale(1,-1)">[non]</text>
+			<polyline points="180 589, 180 552" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="180 552, 184.5 559.7942, 175.5 559.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="290 530, 520 530" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="520 530, 512.2058 534.5, 512.2058 525.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="650 508, 650 473" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="650 473, 654.5 480.7942, 645.5 480.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="650 418, 650 378" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="650 378, 654.5 385.7942, 645.5 385.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="661" y="399" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,798) scale(1,-1)">[oui]</text>
+			<polyline points="611 445, 400 445, 400 610, 545 610" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="545 610, 537.2058 614.5, 537.2058 605.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="430" y="458" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,916) scale(1,-1)">[non]</text>
+			<polyline points="782 355, 1120 355" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1120 355, 1112.206 359.5, 1112.206 350.5" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="1120 335, 780 286" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="780 286, 788.3564 282.6578, 787.0726 291.5658" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="1245 333, 1245 273" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1245 273, 1249.5 280.7942, 1240.5 280.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="1245 218, 1245 177" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1245 177, 1249.5 184.7942, 1240.5 184.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="1257" y="198" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,396) scale(1,-1)">[non]</text>
+			<polyline points="1206 245, 850 245, 780 175" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="780 175, 788.6933 177.3294, 782.3294 183.6933" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<text x="1030" y="257" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,514) scale(1,-1)">[oui et stock retiré]</text>
+			<polyline points="650 133, 650 114" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="650 114, 654.5 121.7942, 645.5 121.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="768 92, 1231 82" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1231 82, 1223.305 86.66725, 1223.11 77.66935" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+			<polyline points="1245 133, 1245 96" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1245 96, 1249.5 103.7942, 1240.5 103.7942" style="stroke: rgb(34%,38%,42%); stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,38%,42%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

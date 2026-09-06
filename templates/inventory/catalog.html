@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Catalogue de pneus · MANUGOM Stock{% endblock %}
+{% block content %}
+<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Catalogue</div><h1>Trouvez votre dimension</h1><p>Recherchez par référence, marque, catégorie ou dimension. Les disponibilités sont lues directement depuis SQLite.</p></div></header>
+<section class="section-pad py-5">
+  <div class="container-xxl">
+    <div class="row g-4">
+      <aside class="col-lg-3">
+        <form class="filter-panel" method="get">
+          <div class="d-flex justify-content-between"><h2>Filtres</h2><a class="small" href="{% url 'inventory:catalog' %}">Réinitialiser</a></div>
+          <div class="mb-3"><label class="form-label" for="q">Mot-clé</label><input class="form-control" id="q" name="q" value="{{ request.GET.q }}" placeholder="Modèle, usage…"></div>
+          <div class="mb-3"><label class="form-label" for="reference">Référence</label><input class="form-control" id="reference" name="reference" value="{{ request.GET.reference }}" placeholder="MIC-PRI4…"></div>
+          <div class="mb-3"><label class="form-label" for="marque">Marque</label><select class="form-select" id="marque" name="marque"><option value="">Toutes</option>{% for brand in marques %}<option value="{{ brand.id }}" {% if request.GET.marque == brand.id|stringformat:'s' %}selected{% endif %}>{{ brand.nom }}</option>{% endfor %}</select></div>
+          <div class="mb-3"><label class="form-label" for="categorie">Catégorie</label><select class="form-select" id="categorie" name="categorie"><option value="">Toutes</option>{% for category in categories %}<option value="{{ category.id }}" {% if request.GET.categorie == category.id|stringformat:'s' %}selected{% endif %}>{{ category.nom }}</option>{% endfor %}</select></div>
+          <div class="row g-2">
+            <div class="col-4"><label class="form-label" for="largeur">Larg.</label><select class="form-select" id="largeur" name="largeur"><option value="">—</option>{% for x in largeurs %}<option {% if request.GET.largeur == x|stringformat:'s' %}selected{% endif %}>{{ x }}</option>{% endfor %}</select></div>
+            <div class="col-4"><label class="form-label" for="hauteur">Haut.</label><select class="form-select" id="hauteur" name="hauteur"><option value="">—</option>{% for x in hauteurs %}<option {% if request.GET.hauteur == x|stringformat:'s' %}selected{% endif %}>{{ x }}</option>{% endfor %}</select></div>
+            <div class="col-4"><label class="form-label" for="diametre">Jante</label><select class="form-select" id="diametre" name="diametre"><option value="">—</option>{% for x in diametres %}<option {% if request.GET.diametre == x|stringformat:'s' %}selected{% endif %}>{{ x }}</option>{% endfor %}</select></div>
+          </div>
+          <div class="row g-2 mt-1">
+            <div class="col-6"><label class="form-label" for="prix_min">Prix min</label><input class="form-control" type="number" min="0" id="prix_min" name="prix_min" value="{{ request.GET.prix_min }}"></div>
+            <div class="col-6"><label class="form-label" for="prix_max">Prix max</label><input class="form-control" type="number" min="0" id="prix_max" name="prix_max" value="{{ request.GET.prix_max }}"></div>
+          </div>
+          <div class="mb-3 mt-3"><label class="form-label" for="saison">Saison</label><select class="form-select" id="saison" name="saison"><option value="">Toutes</option>{% for value,label in saisons %}<option value="{{ value }}" {% if request.GET.saison == value %}selected{% endif %}>{{ label }}</option>{% endfor %}</select></div>
+          <div class="mb-3"><label class="form-label" for="disponibilite">Disponibilité</label><select class="form-select" id="disponibilite" name="disponibilite"><option value="">Toutes</option><option value="en_stock" {% if request.GET.disponibilite == 'en_stock' %}selected{% endif %}>En stock</option><option value="rupture" {% if request.GET.disponibilite == 'rupture' %}selected{% endif %}>Rupture</option></select></div>
+          <button class="btn btn-warning w-100" type="submit"><i class="bi bi-funnel"></i> Appliquer</button>
+        </form>
+      </aside>
+      <div class="col-lg-9">
+        <form method="get" class="result-toolbar d-flex justify-content-between align-items-center gap-3 mb-4">
+          {% for key,value in request.GET.items %}{% if key != 'tri' and key != 'page' %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
+          <strong>{{ page_obj.paginator.count }} référence{{ page_obj.paginator.count|pluralize }}</strong>
+          <select class="form-select w-auto" name="tri" aria-label="Trier le catalogue" onchange="this.form.submit()"><option value="">Trier par marque</option>{% for value,label in sorts %}<option value="{{ value }}" {% if request.GET.tri == value %}selected{% endif %}>{{ label }}</option>{% endfor %}</select>
+        </form>
+        <div class="row g-4">
+          {% for tire in page_obj %}<div class="col-md-6 col-xl-4">{% include 'includes/tire_card.html' %}</div>{% empty %}<div class="col-12"><div class="empty-state"><i class="bi bi-search"></i><h2>Aucun pneu ne correspond</h2><p>Modifiez les filtres ou effacez la recherche.</p><a class="btn btn-dark" href="{% url 'inventory:catalog' %}">Voir tout le catalogue</a></div></div>{% endfor %}
+        </div>
+        {% if page_obj.paginator.num_pages > 1 %}
+          <nav class="mt-5" aria-label="Pages du catalogue">
+            <ul class="pagination justify-content-center">
+              <li class="page-item {% if not page_obj.has_previous %}disabled{% endif %}">
+                {% if page_obj.has_previous %}<a class="page-link" href="{% querystring page=page_obj.previous_page_number %}">Précédent</a>{% else %}<span class="page-link" aria-disabled="true">Précédent</span>{% endif %}
+              </li>
+              {% for number in page_obj.paginator.page_range %}<li class="page-item {% if number == page_obj.number %}active{% endif %}"><a class="page-link" href="{% querystring page=number %}">{{ number }}</a></li>{% endfor %}
+              <li class="page-item {% if not page_obj.has_next %}disabled{% endif %}">
+                {% if page_obj.has_next %}<a class="page-link" href="{% querystring page=page_obj.next_page_number %}">Suivant</a>{% else %}<span class="page-link" aria-disabled="true">Suivant</span>{% endif %}
+              </li>
+            </ul>
+          </nav>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

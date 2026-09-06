@@ -1,0 +1,4 @@
+{% extends 'base.html' %}
+{% block title %}Demande de devis · MANUGOM Stock{% endblock %}
+{% block content %}<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Besoin spécifique</div><h1>Demander un devis</h1><p>Précisez le véhicule, la dimension recherchée et la quantité. La demande sera enregistrée pour traitement.</p></div></header><section class="section-pad"><div class="container"><div class="form-shell"><form method="post" class="row g-3">{% csrf_token %}{% for field in form %}<div class="{% if field.name == 'message' %}col-12{% else %}col-md-6{% endif %}"><label class="form-label" for="{{ field.id_for_label }}">{{ field.label }}</label>{{ field }}{{ field.errors }}</div>{% endfor %}<div class="col-12"><button class="btn btn-warning btn-lg" type="submit"><i class="bi bi-send"></i> Envoyer la demande</button></div></form></div></div></section>{% endblock %}
+

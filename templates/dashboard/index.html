@@ -1,0 +1,32 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Tableau de bord · MANUGOM Stock{% endblock %}
+{% block management_content %}
+<div class="management-header"><div><div class="eyebrow">Vue d'ensemble</div><h1>Tableau de bord</h1></div></div>
+<div class="metric-grid mb-4">
+  <article class="metric-card"><i class="bi bi-upc-scan"></i><span>Références</span><strong>{{ stats.references }}</strong></article>
+  <article class="metric-card"><i class="bi bi-boxes"></i><span>Quantité en stock</span><strong>{{ stats.stock_total }}</strong></article>
+  <article class="metric-card"><i class="bi bi-cash-stack"></i><span>Valeur estimée</span><strong>{{ stats.valeur_stock|floatformat:0 }} MAD</strong></article>
+  <article class="metric-card"><i class="bi bi-people"></i><span>Clients actifs</span><strong>{{ stats.clients }}</strong></article>
+  <article class="metric-card"><i class="bi bi-calendar-check"></i><span>Commandes du jour</span><strong>{{ stats.commandes_jour }}</strong></article>
+  <article class="metric-card"><i class="bi bi-hourglass-split"></i><span>En attente</span><strong>{{ stats.en_attente }}</strong></article>
+  <article class="metric-card"><i class="bi bi-check2-circle"></i><span>Livrées</span><strong>{{ stats.livrees }}</strong></article>
+  <article class="metric-card"><i class="bi bi-graph-up-arrow"></i><span>CA livré estimé</span><strong>{{ stats.chiffre_affaires|floatformat:0 }} MAD</strong></article>
+  <article class="metric-card"><i class="bi bi-exclamation-circle"></i><span>Stock faible</span><strong>{{ stats.stock_faible }}</strong></article>
+  <article class="metric-card"><i class="bi bi-x-octagon"></i><span>Ruptures</span><strong>{{ stats.ruptures }}</strong></article>
+</div>
+<div class="row g-4 mb-4"><div class="col-xl-8"><div class="panel"><h2>Ventes par mois</h2><div class="chart-wrap"><canvas id="salesChart"></canvas></div></div></div><div class="col-xl-4"><div class="panel"><h2>Commandes par statut</h2><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div></div></div>
+<div class="row g-4 mb-4"><div class="col-lg-6"><div class="panel"><h2>Pneus par marque</h2><div class="chart-wrap"><canvas id="brandChart"></canvas></div></div></div><div class="col-lg-6"><div class="panel"><h2>Produits les plus vendus</h2><div class="chart-wrap"><canvas id="topChart"></canvas></div></div></div></div>
+<div class="row g-4"><div class="col-xl-7"><div class="panel"><h2>Mouvements récents agrégés</h2><div class="chart-wrap"><canvas id="movementChart"></canvas></div></div></div><div class="col-xl-5"><div class="panel table-responsive"><h2>Commandes récentes</h2><table class="table data-table"><thead><tr><th>Numéro</th><th>Client</th><th>Statut</th><th>Total</th></tr></thead><tbody>{% for order in recentes %}<tr><td><a href="{% url 'orders:detail' order.id %}"><strong>{{ order.numero }}</strong></a></td><td>{{ order.client.get_full_name }}</td><td><span class="status-badge" data-status="{{ order.statut }}">{{ order.get_statut_display }}</span></td><td>{{ order.montant_total|floatformat:0 }}</td></tr>{% empty %}<tr><td colspan="4">Aucune commande.</td></tr>{% endfor %}</tbody></table></div></div></div>
+{{ chart_data|json_script:'dashboard-data' }}
+{% endblock %}
+{% block extra_js %}<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script><script>
+const charts = JSON.parse(document.getElementById('dashboard-data').textContent);
+const yellow = '#ffc400', black = '#1c1e20', gray = '#aeb4ba';
+Chart.defaults.font.family = 'Inter, Segoe UI, sans-serif'; Chart.defaults.color = '#5f666d';
+function render(id, type, data, options={}) { new Chart(document.getElementById(id), {type, data, options:{responsive:true, maintainAspectRatio:false, plugins:{legend:{display:type==='doughnut'}}, scales:type==='doughnut'?{}:{y:{beginAtZero:true, grid:{color:'#edf0f2'}},x:{grid:{display:false}}}, ...options}}); }
+render('salesChart','line',{labels:charts.sales.labels,datasets:[{label:'Ventes (MAD)',data:charts.sales.values,borderColor:yellow,backgroundColor:'rgba(255,196,0,.16)',fill:true,tension:.35}]});
+render('statusChart','doughnut',{labels:charts.statuses.labels,datasets:[{data:charts.statuses.values,backgroundColor:[yellow,black,'#4e5964','#73818c','#10a361','#c74c5b','#7d5cc6']}]});
+render('brandChart','bar',{labels:charts.brands.labels,datasets:[{label:'Quantité',data:charts.brands.values,backgroundColor:yellow,borderRadius:5}]});
+render('topChart','bar',{labels:charts.top.labels,datasets:[{label:'Unités vendues',data:charts.top.values,backgroundColor:black,borderRadius:5}]},{indexAxis:'y'});
+render('movementChart','bar',{labels:charts.movements.labels,datasets:[{label:'Quantité',data:charts.movements.values,backgroundColor:gray,borderRadius:4}]});
+</script>{% endblock %}

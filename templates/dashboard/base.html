@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block body_class %}management-body{% endblock %}
+{% block content %}
+<div class="management-shell">
+  <aside class="management-sidebar" aria-label="Navigation de gestion">
+    <a href="{% url 'dashboard:index' %}"><i class="bi bi-grid-1x2"></i> Tableau de bord</a>
+    <h2>Opérations</h2>
+    <a href="{% url 'dashboard:orders' %}"><i class="bi bi-receipt"></i> Commandes</a>
+    <a href="{% url 'dashboard:supplies' %}"><i class="bi bi-truck"></i> Approvisionnements</a>
+    <a href="{% url 'dashboard:movements' %}"><i class="bi bi-arrow-left-right"></i> Mouvements</a>
+    <a href="{% url 'dashboard:alerts' %}"><i class="bi bi-exclamation-triangle"></i> Alertes stock</a>
+    <h2>Référentiel</h2>
+    <a href="{% url 'dashboard:tires' %}"><i class="bi bi-record-circle"></i> Pneus</a>
+    <a href="{% url 'dashboard:brands' %}"><i class="bi bi-tags"></i> Marques</a>
+    <a href="{% url 'dashboard:categories' %}"><i class="bi bi-diagram-3"></i> Catégories</a>
+    <a href="{% url 'dashboard:clients' %}"><i class="bi bi-people"></i> Clients</a>
+    <a href="{% url 'dashboard:suppliers' %}"><i class="bi bi-buildings"></i> Fournisseurs</a>
+    <h2>Messages</h2>
+    <a href="{% url 'dashboard:quotes' %}"><i class="bi bi-file-earmark-text"></i> Devis</a>
+    <a href="{% url 'dashboard:contacts' %}"><i class="bi bi-envelope"></i> Contact</a>
+    {% if user.role == 'ADMIN' or user.is_superuser %}<h2>Administration</h2><a href="{% url 'dashboard:users' %}"><i class="bi bi-person-gear"></i> Utilisateurs</a>{% endif %}
+  </aside>
+  <section class="management-content">{% block management_content %}{% endblock %}</section>
+</div>
+{% endblock %}
+

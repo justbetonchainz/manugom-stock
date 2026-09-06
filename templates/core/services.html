@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Services · MANUGOM Stock{% endblock %}
+{% block content %}
+<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Atelier & distribution</div><h1>Services pneumatiques</h1><p>Une présentation sobre des activités indiquées dans le cahier des charges, sans ajouter d'engagement commercial non vérifié.</p></div></header>
+<section class="section-pad bg-white"><div class="container-xxl"><div class="services-grid">
+  <article class="service-card"><i class="bi bi-cart-check"></i><h3>Vente de pneus</h3><p>Choix multi-marques pour tourisme, SUV, utilitaire, poids lourd et génie civil.</p></article>
+  <article class="service-card"><i class="bi bi-wrench-adjustable"></i><h3>Montage</h3><p>Montage des pneumatiques en atelier.</p></article>
+  <article class="service-card"><i class="bi bi-speedometer"></i><h3>Équilibrage</h3><p>Équilibrage destiné à limiter les vibrations.</p></article>
+  <article class="service-card"><i class="bi bi-bullseye"></i><h3>Géométrie</h3><p>Contrôle et réglage de la géométrie.</p></article>
+  <article class="service-card"><i class="bi bi-tools"></i><h3>Réparation</h3><p>Examen et réparation lorsque l'état du pneu le permet.</p></article>
+  <article class="service-card"><i class="bi bi-globe2"></i><h3>Import & distribution</h3><p>Approvisionnement et distribution de références de pneus et jantes.</p></article>
+</div><div class="text-center mt-5"><a class="btn btn-warning btn-lg" href="{% url 'quotes:quote' %}">Demander un devis</a></div></div></section>
+{% endblock %}
+

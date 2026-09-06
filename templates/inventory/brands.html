@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Marques · MANUGOM Stock{% endblock %}
+{% block content %}
+<header class="page-hero"><div class="container-xxl"><div class="eyebrow text-warning">Catalogue</div><h1>Marques proposées</h1><p>Huit marques mentionnées dans la présentation du projet, avec des produits de démonstration gérés depuis SQLite.</p></div></header>
+<section class="section-pad"><div class="container-xxl"><div class="row g-4">{% for brand in marques %}<div class="col-sm-6 col-lg-3"><article class="panel h-100 p-4"><div class="brand-name mb-3">Marque</div><h2 class="fw-bold">{{ brand.nom }}</h2><p class="text-secondary">{{ brand.description|default:'Marque disponible dans le catalogue de démonstration.' }}</p><p class="small"><strong>{{ brand.pneus.count }}</strong> référence{{ brand.pneus.count|pluralize }}</p><a class="btn btn-outline-dark" href="{% url 'inventory:catalog' %}?marque={{ brand.id }}">Voir les pneus</a></article></div>{% empty %}<div class="empty-state">Aucune marque active.</div>{% endfor %}</div></div></section>
+{% endblock %}
+
