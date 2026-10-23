@@ -1,6 +1,6 @@
 # MANUGOM Stock
 
-[Consulter le rapport du projet (PDF)](output/pdf/Rapport_MANUGOM_Stock.pdf)
+[Consulter le rapport du projet (PDF)](Rapport_MANUGOM_Stock.pdf)
 
 Application Django pour gérer un stock de pneus, les commandes clients et les approvisionnements.
 
