@@ -2,237 +2,109 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="1700" height="1260" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1700 1260" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1250" height="1100" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1250 1100" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
-		<rect x="0" y="0" width="1700" height="1260"/>
+		<rect x="0" y="0" width="1250" height="1100"/>
 	</clipPath>
-	<g id="group" transform="scale(1,-1) translate(0,-1260)" style="clip-path: url(#clip)">
+	<g id="group" transform="scale(1,-1) translate(0,-1100)" style="clip-path: url(#clip)">
 		<g transform="">
-			<rect x="0" y="0" width="1700" height="1260" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
-			<rect x="0" y="1178" width="1700" height="82" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="0" y="1253" width="1700" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,76%,0%); fill-rule: evenodd;"/>
-			<text x="34" y="1218" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2436) scale(1,-1)">Diagramme de classes</text>
-			<text x="34" y="1195" style="font-family: Helvetica; font-size: 11px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2390) scale(1,-1)">Modèles Django persistés, attributs structurants, clés et multiplicités</text>
-			<text x="1551.56" y="1215" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2430) scale(1,-1)">MANUGOM Stock - UML</text>
-			<polyline points="400 1043, 455 1043" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="400 1043, 875 1043" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="1240 1043, 1295 1043" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="1477.5 930, 1477.5 876" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polygon points="1477.5 930, 1483.157 924.3431, 1477.5 918, 1471.843 924.3431" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,14%,15%); fill-rule: evenodd;"/>
-			<polyline points="400 763, 875 763" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="820 763, 875 763" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="1240 763, 1295 763" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="400 483, 455 483" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="820 483, 875 483" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polygon points="820 483, 825.6569 488.6569, 832 483, 825.6569 477.3431" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,14%,15%); fill-rule: evenodd;"/>
-			<polyline points="1057.5 650, 1057.5 596" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="1227 650, 1308 596" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="944.5 930, 330.5 316" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="400 203, 455 203" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polygon points="400 203, 405.6569 208.6569, 412 203, 405.6569 197.3431" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,14%,15%); fill-rule: evenodd;"/>
-			<polyline points="972.75 650, 722.25 316" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="400 243.5556, 1295 442.4444" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="820 483, 1295 483" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<polyline points="400 961.8889, 1295 564.1111" style="stroke: rgb(68%,71%,74%); stroke-linecap: butt; stroke-width: 0.85; fill: None; fill-rule: evenodd;"/>
-			<rect x="35" y="930" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="35" y="1125" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="203.0505" y="1135" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2270) scale(1,-1)">User</text>
-			<text x="44" y="1108" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2216) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="44" y="1090" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2180) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="44" y="1072" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2144) scale(1,-1)">+ username: CharField {UQ}</text>
-			<text x="44" y="1054" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2108) scale(1,-1)">+ email: EmailField {UQ}</text>
-			<text x="44" y="1036" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2072) scale(1,-1)">+ role: Role</text>
-			<text x="44" y="1018" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2036) scale(1,-1)">+ is_active: BooleanField</text>
-			<text x="44" y="1000" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2000) scale(1,-1)">+ is_manager: bool</text>
-			<rect x="455" y="930" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="455" y="1125" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="589.101" y="1135" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2270) scale(1,-1)">ProfilUtilisateur</text>
-			<text x="464" y="1108" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2216) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="464" y="1090" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2180) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="464" y="1072" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2144) scale(1,-1)">+ utilisateur_id: FK {UQ}</text>
-			<text x="464" y="1054" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2108) scale(1,-1)">+ téléphone: CharField</text>
-			<text x="464" y="1036" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2072) scale(1,-1)">+ adresse: CharField</text>
-			<text x="464" y="1018" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2036) scale(1,-1)">+ ville: CharField</text>
-			<text x="464" y="1000" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2000) scale(1,-1)">+ photo: ImageField?</text>
-			<rect x="875" y="930" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="875" y="1125" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1039.443" y="1135" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2270) scale(1,-1)">Client</text>
-			<text x="884" y="1108" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2216) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="884" y="1090" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2180) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="884" y="1072" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2144) scale(1,-1)">+ numéro: CharField {UQ}</text>
-			<text x="884" y="1054" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2108) scale(1,-1)">+ utilisateur_id: FK? {UQ}</text>
-			<text x="884" y="1036" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2072) scale(1,-1)">+ email: EmailField {UQ}</text>
-			<text x="884" y="1018" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2036) scale(1,-1)">+ type_client: choix</text>
-			<text x="884" y="1000" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2000) scale(1,-1)">+ actif: BooleanField</text>
-			<rect x="1295" y="930" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="1295" y="1125" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1457.6295" y="1135" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2270) scale(1,-1)">Panier</text>
-			<text x="1304" y="1108" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2216) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="1304" y="1090" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2180) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="1304" y="1072" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2144) scale(1,-1)">+ client_id: FK</text>
-			<text x="1304" y="1054" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2108) scale(1,-1)">+ actif: BooleanField</text>
-			<text x="1304" y="1036" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2072) scale(1,-1)">+ date_création: DateTimeField</text>
-			<text x="1304" y="1018" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2036) scale(1,-1)">/ total: Decimal</text>
-			<text x="1304" y="1000" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,2000) scale(1,-1)">/ nombre_articles: int</text>
-			<rect x="35" y="650" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="35" y="845" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="194.386" y="855" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1710) scale(1,-1)">Marque</text>
-			<text x="44" y="828" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1656) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="44" y="810" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1620) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="44" y="792" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1584) scale(1,-1)">+ nom: CharField {UQ}</text>
-			<text x="44" y="774" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1548) scale(1,-1)">+ pays_origine: CharField?</text>
-			<text x="44" y="756" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1512) scale(1,-1)">+ description: TextField?</text>
-			<text x="44" y="738" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1476) scale(1,-1)">+ logo: ImageField?</text>
-			<text x="44" y="720" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1440) scale(1,-1)">+ actif: BooleanField</text>
-			<rect x="455" y="650" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="455" y="845" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="607.522" y="855" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1710) scale(1,-1)">Categorie</text>
-			<text x="464" y="828" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1656) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="464" y="810" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1620) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="464" y="792" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1584) scale(1,-1)">+ nom: CharField {UQ}</text>
-			<text x="464" y="774" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1548) scale(1,-1)">+ description: TextField?</text>
-			<text x="464" y="756" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1512) scale(1,-1)">+ actif: BooleanField</text>
-			<text x="464" y="738" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1476) scale(1,-1)">+ date_création: DateTimeField</text>
-			<text x="464" y="720" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1440) scale(1,-1)">+ date_modification: DateTimeField</text>
-			<rect x="875" y="650" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="875" y="845" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1041.6075" y="855" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1710) scale(1,-1)">Pneu</text>
-			<text x="884" y="828" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1656) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="884" y="810" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1620) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="884" y="792" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1584) scale(1,-1)">+ référence_interne: CharField {UQ}</text>
-			<text x="884" y="774" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1548) scale(1,-1)">+ marque_id: FK</text>
-			<text x="884" y="756" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1512) scale(1,-1)">+ catégorie_id: FK</text>
-			<text x="884" y="738" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1476) scale(1,-1)">+ dimension_complete: CharField</text>
-			<text x="884" y="720" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1440) scale(1,-1)">+ prix_vente: DecimalField</text>
-			<text x="884" y="702" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1404) scale(1,-1)">+ quantité_disponible: PositiveInteger</text>
-			<rect x="1295" y="650" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="1295" y="845" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1440.294" y="855" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1710) scale(1,-1)">LignePanier</text>
-			<text x="1304" y="828" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1656) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="1304" y="810" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1620) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="1304" y="792" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1584) scale(1,-1)">+ panier_id: FK</text>
-			<text x="1304" y="774" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1548) scale(1,-1)">+ pneu_id: FK</text>
-			<text x="1304" y="756" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1512) scale(1,-1)">+ quantité: PositiveInteger</text>
-			<text x="1304" y="738" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1476) scale(1,-1)">+ date_ajout: DateTimeField</text>
-			<text x="1304" y="720" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1440) scale(1,-1)">/ sous_total: Decimal</text>
-			<rect x="35" y="370" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="35" y="565" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="179.9365" y="575" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1150) scale(1,-1)">Fournisseur</text>
-			<text x="44" y="548" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1096) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="44" y="530" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1060) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="44" y="512" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1024) scale(1,-1)">+ raison_sociale: CharField {UQ}</text>
-			<text x="44" y="494" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,988) scale(1,-1)">+ nom_contact: CharField?</text>
-			<text x="44" y="476" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,952) scale(1,-1)">+ téléphone: CharField</text>
-			<text x="44" y="458" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,916) scale(1,-1)">+ email: EmailField</text>
-			<text x="44" y="440" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,880) scale(1,-1)">+ actif: BooleanField</text>
-			<rect x="455" y="370" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="455" y="565" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="576.465" y="575" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1150) scale(1,-1)">Approvisionnement</text>
-			<text x="464" y="548" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1096) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="464" y="530" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1060) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="464" y="512" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1024) scale(1,-1)">+ numéro: CharField {UQ}</text>
-			<text x="464" y="494" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,988) scale(1,-1)">+ fournisseur_id: FK</text>
-			<text x="464" y="476" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,952) scale(1,-1)">+ statut: choix</text>
-			<text x="464" y="458" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,916) scale(1,-1)">+ montant_total: DecimalField</text>
-			<text x="464" y="440" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,880) scale(1,-1)">+ reçu_le: DateTimeField?</text>
-			<rect x="875" y="370" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="875" y="565" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="979.1295" y="575" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1150) scale(1,-1)">LigneApprovisionnement</text>
-			<text x="884" y="548" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1096) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="884" y="530" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1060) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="884" y="512" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1024) scale(1,-1)">+ approvisionnement_id: FK</text>
-			<text x="884" y="494" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,988) scale(1,-1)">+ pneu_id: FK</text>
-			<text x="884" y="476" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,952) scale(1,-1)">+ quantité: PositiveInteger</text>
-			<text x="884" y="458" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,916) scale(1,-1)">+ prix_achat: DecimalField</text>
-			<text x="884" y="440" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,880) scale(1,-1)">/ sous_total: Decimal</text>
-			<rect x="1295" y="370" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="1295" y="565" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1423.6865" y="575" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1150) scale(1,-1)">MouvementStock</text>
-			<text x="1304" y="548" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1096) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="1304" y="530" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1060) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="1304" y="512" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,1024) scale(1,-1)">+ pneu_id: FK</text>
-			<text x="1304" y="494" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,988) scale(1,-1)">+ type_mouvement: choix</text>
-			<text x="1304" y="476" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,952) scale(1,-1)">+ quantité: PositiveInteger</text>
-			<text x="1304" y="458" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,916) scale(1,-1)">+ stock_avant / stock_après: int</text>
-			<text x="1304" y="440" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,880) scale(1,-1)">+ utilisateur_id: FK</text>
-			<text x="1304" y="422" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,844) scale(1,-1)">+ commande / approvisionnement: FK?</text>
-			<rect x="35" y="90" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="35" y="285" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="182.10750000000002" y="295" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,590) scale(1,-1)">Commande</text>
-			<text x="44" y="268" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,536) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="44" y="250" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="44" y="232" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,464) scale(1,-1)">+ numéro: CharField {UQ}</text>
-			<text x="44" y="214" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,428) scale(1,-1)">+ client_id: FK</text>
-			<text x="44" y="196" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,392) scale(1,-1)">+ statut: choix</text>
-			<text x="44" y="178" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,356) scale(1,-1)">+ montant_total: DecimalField</text>
-			<text x="44" y="160" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,320) scale(1,-1)">+ stock_retiré / restauré: bool</text>
-			<rect x="455" y="90" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="455" y="285" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="584.772" y="295" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,590) scale(1,-1)">LigneCommande</text>
-			<text x="464" y="268" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,536) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="464" y="250" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="464" y="232" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,464) scale(1,-1)">+ commande_id: FK</text>
-			<text x="464" y="214" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,428) scale(1,-1)">+ pneu_id: FK</text>
-			<text x="464" y="196" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,392) scale(1,-1)">+ référence / marque / modèle: str</text>
-			<text x="464" y="178" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,356) scale(1,-1)">+ quantité: PositiveInteger</text>
-			<text x="464" y="160" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,320) scale(1,-1)">+ prix_unitaire / sous_total: Decimal</text>
-			<rect x="875" y="90" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="875" y="285" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1010.9014999999999" y="295" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,590) scale(1,-1)">DemandeDevis</text>
-			<text x="884" y="268" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,536) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="884" y="250" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="884" y="232" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,464) scale(1,-1)">+ nom_complet / coordonnées</text>
-			<text x="884" y="214" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,428) scale(1,-1)">+ véhicule / dimensions</text>
-			<text x="884" y="196" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,392) scale(1,-1)">+ quantité: PositiveInteger</text>
-			<text x="884" y="178" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,356) scale(1,-1)">+ statut: choix</text>
-			<text x="884" y="160" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,320) scale(1,-1)">+ date: DateTimeField</text>
-			<rect x="1295" y="90" width="365" height="226" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="1295" y="285" width="365" height="31" style="stroke: rgb(12%,14%,15%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,94%,65%); fill-rule: evenodd;"/>
-			<text x="1425.851" y="295" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,590) scale(1,-1)">MessageContact</text>
-			<text x="1304" y="268" style="font-family: Helvetica-Oblique; font-size: 9px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,536) scale(1,-1)">&lt;&lt;Django model&gt;&gt;</text>
-			<text x="1304" y="250" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ id: BigAutoField {PK}</text>
-			<text x="1304" y="232" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,464) scale(1,-1)">+ nom / téléphone / email</text>
-			<text x="1304" y="214" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,428) scale(1,-1)">+ sujet: CharField</text>
-			<text x="1304" y="196" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,392) scale(1,-1)">+ message: TextField</text>
-			<text x="1304" y="178" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,356) scale(1,-1)">+ date: DateTimeField</text>
-			<text x="1304" y="160" style="font-family: Helvetica; font-size: 9.7px;fill: rgb(12%,14%,15%); stroke:none;" transform="translate(0,320) scale(1,-1)">+ lu: BooleanField</text>
-			<text x="411.637" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">1</text>
-			<text x="433.911" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">0..1</text>
-			<text x="411.637" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">1</text>
-			<text x="853.911" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">0..1</text>
-			<text x="1251.637" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">1</text>
-			<text x="1274.62075" y="1048.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,2096) scale(1,-1)">0..*</text>
-			<text x="1475.137" y="921.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1842) scale(1,-1)">1</text>
-			<text x="1471.12075" y="895.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1790) scale(1,-1)">0..*</text>
-			<text x="411.637" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">1</text>
-			<text x="854.62075" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">0..*</text>
-			<text x="831.637" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">1</text>
-			<text x="854.62075" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">0..*</text>
-			<text x="1251.637" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">1</text>
-			<text x="1274.62075" y="768.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1536) scale(1,-1)">0..*</text>
-			<text x="411.637" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">1</text>
-			<text x="434.62075" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">0..*</text>
-			<text x="831.637" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">1</text>
-			<text x="854.62075" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">1..*</text>
-			<text x="1055.137" y="641.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1282) scale(1,-1)">1</text>
-			<text x="1051.12075" y="615.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1230) scale(1,-1)">0..*</text>
-			<text x="1236.2857041207299" y="647.2341972528468" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1294) scale(1,-1)">1</text>
-			<text x="1289.9720458792701" y="608.7658027471532" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1217) scale(1,-1)">0..*</text>
-			<text x="932.2375050633883" y="925.1005050633884" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1850) scale(1,-1)">1</text>
-			<text x="334.0202449366117" y="330.8994949366117" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,661) scale(1,-1)">0..*</text>
-			<text x="411.637" y="208.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,416) scale(1,-1)">1</text>
-			<text x="434.62075" y="208.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,416) scale(1,-1)">1..*</text>
-			<text x="961.987" y="643.8" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1287) scale(1,-1)">1</text>
-			<text x="724.27075" y="332.2" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,664) scale(1,-1)">0..*</text>
-			<text x="406.57761884257536" y="251.59258196501673" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,503) scale(1,-1)">0..1</text>
-			<text x="1274.9541311574246" y="444.40741803498327" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,888) scale(1,-1)">0..*</text>
-			<text x="826.911" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">0..1</text>
-			<text x="1274.62075" y="488.0" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,976) scale(1,-1)">0..*</text>
-			<text x="410.4303616806836" y="961.2029503641406" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1922) scale(1,-1)">1</text>
-			<text x="1275.8273883193165" y="574.7970496358594" style="font-family: Helvetica-Bold; font-size: 8.5px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,1149) scale(1,-1)">0..*</text>
-			<text x="35" y="53" style="font-family: Helvetica; font-size: 10px;fill: rgb(40%,44%,48%); stroke:none;" transform="translate(0,106) scale(1,-1)">Légende : {PK} clé primaire - {UQ} unique - FK clé étrangère - ? facultatif - / attribut calculé</text>
+			<rect x="0" y="0" width="1250" height="1100" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="1067" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2134) scale(1,-1)">Diagramme de classes - catalogue et commandes</text>
+			<text x="28" y="1044" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,2088) scale(1,-1)">Attributs essentiels ; multiplicités structurelles issues des modèles Django.</text>
+			<rect x="45" y="835" width="300" height="160" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 45,955 L 345,955 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="171.387" y="969" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1938) scale(1,-1)">Client</text>
+			<text x="57" y="932" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1864) scale(1,-1)">id : Integer {PK}</text>
+			<text x="57" y="909" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1818) scale(1,-1)">numero : String {unique}</text>
+			<text x="57" y="886" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1772) scale(1,-1)">email : String {unique}</text>
+			<text x="57" y="863" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1726) scale(1,-1)">actif : Boolean</text>
+			<rect x="45" y="545" width="300" height="190" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 45,695 L 345,695 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="148.7175" y="709" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1418) scale(1,-1)">Commande</text>
+			<text x="57" y="672" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1344) scale(1,-1)">id : Integer {PK}</text>
+			<text x="57" y="649" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1298) scale(1,-1)">numero : String {unique}</text>
+			<text x="57" y="626" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1252) scale(1,-1)">statut : StatutCommande</text>
+			<text x="57" y="603" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1206) scale(1,-1)">montant_total : Decimal</text>
+			<text x="57" y="580" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1160) scale(1,-1)">stock_retire : Boolean</text>
+			<text x="57" y="557" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1114) scale(1,-1)">stock_restaure : Boolean</text>
+			<rect x="45" y="210" width="300" height="220" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 45,390 L 345,390 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="126.048" y="404" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,808) scale(1,-1)">LigneCommande</text>
+			<text x="57" y="367" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,734) scale(1,-1)">id : Integer {PK}</text>
+			<text x="57" y="344" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,688) scale(1,-1)">reference_pneu : String</text>
+			<text x="57" y="321" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,642) scale(1,-1)">marque, modele : String</text>
+			<text x="57" y="298" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,596) scale(1,-1)">dimension : String</text>
+			<text x="57" y="275" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,550) scale(1,-1)">quantite : Integer</text>
+			<text x="57" y="252" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,504) scale(1,-1)">prix_unitaire : Decimal</text>
+			<text x="57" y="229" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,458) scale(1,-1)">sous_total : Decimal</text>
+			<rect x="425" y="835" width="270" height="160" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 425,955 L 695,955 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="534.0155" y="969" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1938) scale(1,-1)">Panier</text>
+			<text x="437" y="932" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1864) scale(1,-1)">id : Integer {PK}</text>
+			<text x="437" y="909" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1818) scale(1,-1)">actif : Boolean</text>
+			<text x="437" y="886" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1772) scale(1,-1)">/ total : Decimal</text>
+			<text x="437" y="863" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1726) scale(1,-1)">/ nombre_articles : Integer</text>
+			<rect x="425" y="560" width="270" height="160" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 425,680 L 695,680 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="511.346" y="694" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1388) scale(1,-1)">LignePanier</text>
+			<text x="437" y="657" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1314) scale(1,-1)">id : Integer {PK}</text>
+			<text x="437" y="634" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1268) scale(1,-1)">quantite : Integer</text>
+			<text x="437" y="611" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1222) scale(1,-1)">date_ajout : DateTime</text>
+			<text x="437" y="588" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1176) scale(1,-1)">/ sous_total : Decimal</text>
+			<rect x="790" y="325" width="405" height="245" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 790,530 L 1195,530 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="971.7175" y="544" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1088) scale(1,-1)">Pneu</text>
+			<text x="802" y="507" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1014) scale(1,-1)">id : Integer {PK}</text>
+			<text x="802" y="484" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,968) scale(1,-1)">reference_interne : String {unique}</text>
+			<text x="802" y="461" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,922) scale(1,-1)">modele, dimension_complete : String</text>
+			<text x="802" y="438" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,876) scale(1,-1)">prix_achat, prix_vente : Decimal</text>
+			<text x="802" y="415" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,830) scale(1,-1)">quantite_disponible : Integer</text>
+			<text x="802" y="392" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,784) scale(1,-1)">seuil_minimum : Integer</text>
+			<text x="802" y="369" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,738) scale(1,-1)">statut : StatutPneu</text>
+			<text x="802" y="346" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,692) scale(1,-1)">/ disponible : Boolean</text>
+			<rect x="790" y="850" width="185" height="135" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 790,945 L 975,945 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="852.274" y="959" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1918) scale(1,-1)">Marque</text>
+			<text x="802" y="922" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1844) scale(1,-1)">id : Integer {PK}</text>
+			<text x="802" y="899" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1798) scale(1,-1)">nom : String</text>
+			<text x="802" y="876" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1752) scale(1,-1)">actif : Boolean</text>
+			<rect x="1010" y="850" width="185" height="135" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 1010,945 L 1195,945 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="1063.298" y="959" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1918) scale(1,-1)">Categorie</text>
+			<text x="1022" y="922" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1844) scale(1,-1)">id : Integer {PK}</text>
+			<text x="1022" y="899" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1798) scale(1,-1)">nom : String</text>
+			<text x="1022" y="876" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1752) scale(1,-1)">actif : Boolean</text>
+			<polyline points="195 835, 195 735" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="205" y="810.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1620) scale(1,-1)">1</text>
+			<text x="205" y="752.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1504) scale(1,-1)">0..*</text>
+			<polyline points="345 910, 425 910" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="362.386" y="923" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1846) scale(1,-1)">1</text>
+			<text x="394.2435" y="923" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1846) scale(1,-1)">0..*</text>
+			<polyline points="560 835, 560 720" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="560 835, 565 825, 560 815, 555 825" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,14%,14%); fill-rule: evenodd;"/>
+			<text x="570" y="797.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1594) scale(1,-1)">1</text>
+			<text x="570" y="737.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1474) scale(1,-1)">0..*</text>
+			<polyline points="195 545, 195 430" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="195 545, 200 535, 195 525, 190 535" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,14%,14%); fill-rule: evenodd;"/>
+			<text x="205" y="507.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1014) scale(1,-1)">1</text>
+			<text x="205" y="447.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,894) scale(1,-1)">0..*</text>
+			<polyline points="790 500, 745 500, 745 640, 695 640" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="765.386" y="513" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1026) scale(1,-1)">1</text>
+			<text x="706.2435" y="653" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1306) scale(1,-1)">0..*</text>
+			<polyline points="790 355, 345 355" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="765.386" y="368" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,736) scale(1,-1)">1</text>
+			<text x="356.2435" y="368" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,736) scale(1,-1)">0..*</text>
+			<polyline points="880 850, 880 570" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="890" y="825.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1650) scale(1,-1)">1</text>
+			<text x="890" y="587.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1174) scale(1,-1)">0..*</text>
+			<polyline points="1100 850, 1100 570" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="1110" y="825.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1650) scale(1,-1)">1</text>
+			<text x="1110" y="587.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1174) scale(1,-1)">0..*</text>
+			<text x="45" y="135" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,270) scale(1,-1)">Contraintes : un seul panier actif par client ; un pneu au plus une fois par panier / commande.</text>
+			<text x="45" y="110" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,220) scale(1,-1)">Le service crée toujours au moins une LigneCommande. La structure seule autorise 0..* lignes.</text>
+			<text x="45" y="85" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,170) scale(1,-1)">Les lignes de commande figent le prix et les libellés au moment de la vente.</text>
 		</g>
 	</g>
 </svg>

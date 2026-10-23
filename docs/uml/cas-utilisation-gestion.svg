@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1190" height="1100" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1190 1100" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1190" height="1100"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1100)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1190" height="1100" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="1067" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2134) scale(1,-1)">Cas d'utilisation - employé et administrateur</text>
+			<text x="28" y="1044" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,2088) scale(1,-1)">Les cas de gestion sont protégés par les permissions du serveur.</text>
+			<rect x="240" y="65" width="910" height="935" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="260" y="973" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1946) scale(1,-1)">Espace de gestion MANUGOM Stock</text>
+			<circle cx="105" cy="655" r="12" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="105 643, 105 607" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polyline points="83 630, 127 630" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polyline points="87 583, 105 607, 123 583" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="75.825" y="560" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1120) scale(1,-1)">Employé</text>
+			<circle cx="105" cy="190" r="12" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<polyline points="105 178, 105 142" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polyline points="83 165, 127 165" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polyline points="87 118, 105 142, 123 118" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="56.655" y="95" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,190) scale(1,-1)">Administrateur</text>
+			<polyline points="127 630, 525 900" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="900.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="655.785" y="895" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1790) scale(1,-1)">Consulter le tableau de bord</text>
+			<polyline points="127 630, 525 800" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="800.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="660.795" y="795" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1590) scale(1,-1)">Gérer pneus et référentiels</text>
+			<polyline points="127 630, 525 700" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="700.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="656.22" y="695" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1390) scale(1,-1)">Gérer clients et fournisseurs</text>
+			<polyline points="127 630, 525 600" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="600.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="673.7325" y="595" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1190) scale(1,-1)">Traiter les commandes</text>
+			<polyline points="127 630, 525 500" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="500.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="649.965" y="495" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,990) scale(1,-1)">Gérer les approvisionnements</text>
+			<polyline points="127 630, 525 400" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="400.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="676.6425" y="404" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,808) scale(1,-1)">Enregistrer / consulter</text>
+			<text x="665.385" y="386" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,772) scale(1,-1)">les mouvements de stock</text>
+			<polyline points="127 630, 525 300" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="300.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="681.645" y="295" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,590) scale(1,-1)">Consulter les alertes</text>
+			<polyline points="127 630, 525 200" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="200.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="664.14" y="195" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,390) scale(1,-1)">Traiter devis et messages</text>
+			<polyline points="127 165, 310 110, 525 110" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<ellipse cx="750.0" cy="110.0" rx="225.0" ry="33.0" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="625.7925" y="105" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,210) scale(1,-1)">Créer des employés / gérer les accès</text>
+			<polyline points="105 205, 105 548" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="105 548, 96.5 533.2776, 113.5 533.2776" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1048.99" y="640" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1280) scale(1,-1)">Les droits</text>
+			<text x="1038.652" y="620" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1240) scale(1,-1)">Employé sont</text>
+			<text x="1046.986" y="600" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1200) scale(1,-1)">également</text>
+			<text x="1045.654" y="580" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1160) scale(1,-1)">accordés à</text>
+			<text x="1032.1779999999999" y="560" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1120) scale(1,-1)">l'Administrateur.</text>
+		</g>
+	</g>
+</svg>

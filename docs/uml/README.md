@@ -1,30 +1,34 @@
-# Livrables UML
+# Diagrammes UML
 
-## Contenu
+Les figures du dossier `final/` accompagnent le rapport MANUGOM Stock.
 
-- `manugom-stock.mdj` : projet de modélisation StarUML préparé à partir des modèles Django ;
-- `final/` : versions vectorielles haute qualité intégrées au rapport PDF ;
-- `cas-utilisation-global.svg` : quatre acteurs, héritages, associations et dépendances UML ;
-- `diagramme-classes.svg` : seize modèles Django, attributs, clés et multiplicités ;
-- `sequence-commande.svg` : création puis confirmation transactionnelle d'une commande ;
-- `activite-commande.svg` : couloirs, décisions, annulation et restauration du stock ;
-- `deploiement.svg` : navigateurs, serveur Django, SQLite et médias locaux ;
-- `final/mcd-synthetique.svg` : vue relationnelle synthétique et cardinalités ;
-- `mcd.svg`, `mld.svg`, `erd.svg` : compléments de conception des données ;
-- `specifications.md` : inventaire exact pour reproduction et vérification.
-- `staruml_style.py` : générateur reproductible des figures vectorielles finales.
+| Fichier | Contenu |
+|---|---|
+| `cas-utilisation-global.svg` | Fonctions publiques, visiteur, client et généralisation des acteurs |
+| `cas-utilisation-gestion.svg` | Employé, administrateur et gestion du magasin |
+| `architecture-mvt.svg` | Navigateur, routage, vues, templates, services et stockage |
+| `diagramme-classes.svg` | Catalogue, panier et commandes |
+| `classes-approvisionnements.svg` | Fournisseurs et approvisionnements |
+| `classes-tracabilite.svg` | Mouvements de stock et origines métier |
+| `classes-comptes.svg` | Comptes, profils et fiches clients |
+| `sequence-commande.svg` | Création d'une commande depuis le panier |
+| `sequence-confirmation.svg` | Confirmation et retrait du stock |
+| `activite-commande.svg` | Contrôles du panier et confirmation |
+| `deploiement.svg` | Installation locale |
 
-## Statut de validation
+## Généralisation des acteurs
 
-StarUML n'est pas installé sur l'environnement où le projet a été produit. Le fichier `.mdj` a donc été validé comme JSON, contrôlé par références et comparé aux modèles Django, mais **il n'a pas été ouvert dans StarUML**. Les SVG finaux sont des figures vectorielles locales au style StarUML, générées par `staruml_style.py` puis contrôlées visuellement. Ils restent nets à l'impression et au zoom, mais ne sont pas présentés comme des exports issus du logiciel StarUML.
+« Utilisateur du site » regroupe la consultation du catalogue et le contact avec le magasin. « Visiteur non connecté » et « Client connecté » héritent de ces associations. Le visiteur peut créer un compte et se connecter ; le client dispose de son profil, de son panier et de ses commandes. Les triangles blancs pointent vers l'acteur général.
 
-Avant la remise académique :
+## Sources et génération
 
-1. ouvrir `manugom-stock.mdj` avec StarUML ;
-2. vérifier le placement et la notation de chaque diagramme ;
-3. appliquer le profil UML Standard si nécessaire ;
-4. exporter les diagrammes via `staruml image manugom-stock.mdj -f svg` si une preuve d'export natif est exigée ;
-5. comparer les exports avec les figures de `final/` avant tout remplacement ;
-6. conserver exactement les noms, relations et multiplicités décrits dans `specifications.md`.
+Les figures sont dessinées par `staruml_style.py` avec ReportLab et exportées en SVG. Leur présentation reprend les conventions graphiques de StarUML, mais elles ne sont pas des exports natifs du logiciel. Le fichier `manugom-stock.mdj` constitue un modèle complémentaire à ouvrir et à vérifier dans StarUML ; les figures du rapport font référence pour leur disposition.
 
-La documentation officielle StarUML rappelle qu'un projet `.mdj` distingue le modèle de ses vues et peut contenir plusieurs perspectives UML. Le présent livrable respecte cette séparation au niveau du modèle, mais la validation applicative reste volontairement déclarée comme non effectuée.
+Avec les dépendances de documentation installées :
+
+```powershell
+python docs/uml/staruml_style.py
+python docs/uml/generate_use_case_corrected.py
+```
+
+Le second script produit également une image haute résolution du diagramme public dans `output/diagrams/`.

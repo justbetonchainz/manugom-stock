@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1410" height="1280" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1410 1280" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1410" height="1280"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1280)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1410" height="1280" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="1247" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2494) scale(1,-1)">Séquence - confirmation par un employé</text>
+			<text x="28" y="1224" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,2448) scale(1,-1)">La validation métier et les mouvements de stock appartiennent à la même transaction.</text>
+			<rect x="-15.0" y="1126" width="230.0" height="44" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="70.824" y="1143" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2286) scale(1,-1)">Employé</text>
+			<polyline points="100 1126, 100 80" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<rect x="290.0" y="1126" width="230.0" height="44" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="324.871" y="1143" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2286) scale(1,-1)">dashboard.order_status</text>
+			<polyline points="405 1126, 405 80" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<rect x="625.0" y="1126" width="230.0" height="44" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="676.979" y="1143" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2286) scale(1,-1)">ServiceCommande</text>
+			<polyline points="740 1126, 740 80" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<rect x="955.0" y="1126" width="230.0" height="44" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1026.033" y="1143" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2286) scale(1,-1)">ServiceStock</text>
+			<polyline points="1070 1126, 1070 80" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<rect x="1205.0" y="1126" width="190.0" height="44" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1249.824" y="1143" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2286) scale(1,-1)">Modèles / ORM</text>
+			<polyline points="1300 1126, 1300 80" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="100 1070, 405 1070" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="405 1070, 396.3397 1075, 396.3397 1065" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="161.6495" y="1080" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2160) scale(1,-1)">1 : POST statut = CONFIRMEE</text>
+			<polyline points="405 1000, 740 1000" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="740 1000, 731.3397 1005, 731.3397 995" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="468.461" y="1010" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2020) scale(1,-1)">2 : changer_statut(...) / confirmer(...)</text>
+			<polyline points="740 930, 1300 930" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1300 930, 1291.34 935, 1291.34 925" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="923.5465" y="940" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1880) scale(1,-1)">3 : lire commande, lignes et stock</text>
+			<polyline points="1300 870, 740 870" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="748.6603 865, 740 870, 748.6603 875" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="964.7175" y="880" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1760) scale(1,-1)">données courantes</text>
+			<rect x="35" y="135" width="1340" height="675" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.15; fill: none; fill-rule: evenodd;"/>
+			<polygon points="35 810, 97 810, 97 789, 85 778, 35 778" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="48" y="789" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1578) scale(1,-1)">alt</text>
+			<text x="112" y="780" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1560) scale(1,-1)">[EN_ATTENTE ; stock non retiré ; références actives ; stock suffisant]</text>
+			<rect x="675" y="480" width="680" height="250" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.15; fill: none; fill-rule: evenodd;"/>
+			<polygon points="675 730, 737 730, 737 709, 725 698, 675 698" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="688" y="709" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1418) scale(1,-1)">loop</text>
+			<text x="750" y="700" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1400) scale(1,-1)">[pour chaque ligne de commande]</text>
+			<polyline points="740 650, 1070 650" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1070 650, 1061.34 655, 1061.34 645" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="803.132" y="660" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1320) scale(1,-1)">4 : appliquer_mouvement(SORTIE)</text>
+			<polyline points="1070 590, 1300 590" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1300 590, 1291.34 595, 1291.34 585" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="1119.4279999999999" y="600" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1200) scale(1,-1)">5 : stock + mouvement</text>
+			<polyline points="1070 530, 740 530" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="748.6603 525, 740 530, 748.6603 535" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="840.338" y="540" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1080) scale(1,-1)">mouvement enregistré</text>
+			<polyline points="740 425, 1300 425" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1300 425, 1291.34 430, 1291.34 420" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="912.178" y="435" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,870) scale(1,-1)">6 : CONFIRMEE ; stock_retire = True</text>
+			<polyline points="740 365, 405 365" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="413.6603 360, 405 365, 413.6603 370" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="510.009" y="375" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,750) scale(1,-1)">commande confirmée</text>
+			<polyline points="405 310, 100 310" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="108.6603 305, 100 310, 108.6603 315" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="140.505" y="320" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,640) scale(1,-1)">302 vers le détail ; message de succès</text>
+			<polyline points="35 280, 1375 280" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<text x="57" y="255" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,510) scale(1,-1)">[sinon : état invalide ou stock insuffisant]</text>
+			<polyline points="740 215, 405 215" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="413.6603 210, 405 215, 413.6603 220" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="477.1385" y="225" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,450) scale(1,-1)">ValidationError ; rollback complet</text>
+			<polyline points="405 155, 100 155" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="108.6603 150, 100 155, 108.6603 160" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="147.577" y="165" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,330) scale(1,-1)">302 vers le détail ; message d'erreur</text>
+			<text x="35" y="80" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,160) scale(1,-1)">L'administrateur possède également ce droit. Le client ne déclenche pas la confirmation.</text>
+			<text x="35" y="57" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,114) scale(1,-1)">SQLite est la persistance locale ; select_for_update() n'y procure pas de verrouillage de ligne.</text>
+		</g>
+	</g>
+</svg>

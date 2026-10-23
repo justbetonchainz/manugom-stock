@@ -6,7 +6,7 @@ Page de garde, remerciements, résumé, abstract, abréviations, figures, tablea
 
 ## Chapitre 1 — Contexte général
 
-EMSI, MANUGOM SARL, activité, problématique de traçabilité, objectifs, solution et méthodologie incrémentale.
+Projet personnel de Youssef Bouikourar, démarche technique, contexte MANUGOM et gestion des stocks.
 
 ## Chapitre 2 — Analyse des besoins
 
@@ -14,7 +14,7 @@ Acteurs, besoins fonctionnels/non fonctionnels, règles de gestion, cas d'utilis
 
 ## Chapitre 3 — Conception
 
-Architecture MVT, cinq diagrammes UML, MCD, MLD, diagramme entité-association, dictionnaire et contraintes.
+Architecture MVT, généralisation des acteurs, vues de classes par domaine, séquences, activité et déploiement.
 
 ## Chapitre 4 — Réalisation
 
@@ -22,7 +22,7 @@ Environnement, structure Django, SQLite, authentification, CRUD, stock, commande
 
 ## Chapitre 5 — Tests et validation
 
-Stratégie, 28 tests réels, résultats, permissions, stock, anomalies corrigées et limites.
+Stratégie, 34 tests, résultats, permissions, stock, anomalies corrigées et limites.
 
 ## Clôture
 

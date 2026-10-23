@@ -80,29 +80,39 @@ def use_case(d, x, y, label, width=320, height=66):
 
 
 def use_case_diagram():
-    """Cas publics et parcours client. Authentification = précondition des cas client."""
-    d = base("Cas d'utilisation - visiteur et client", "Frontière : application web MANUGOM Stock", 1190, 1100)
-    d.add(Rect(220, 60, 930, 940, fillColor=PAPER, strokeColor=LINE, strokeWidth=1.2))
-    text(d, 240, 973, "MANUGOM Stock", 16, bold=True)
-    actor(d, 88, 785, "Visiteur")
-    actor(d, 88, 295, "Client")
-    public = [(910, "Consulter et rechercher\ndans le catalogue"),
-              (800, "Créer un compte client"), (690, "Contacter / demander un devis")]
-    client = [(520, "Gérer son profil"), (410, "Gérer son panier"),
-              (300, "Passer une commande"), (190, "Consulter ses commandes"),
-              (90, "Annuler sa commande")]
-    for y, label in public:
-        connector(d, [(110, 815), (315, y)])
-        use_case(d, 490, y, label, 350)
-    for y, label in client:
-        connector(d, [(110, 325), (315, y)])
-        use_case(d, 490, y, label, 350)
-    use_case(d, 945, 300, "Vérifier le panier\net la disponibilité", 340)
-    connector(d, [(665, 300), (775, 300)], dashed=True, open_arrow=True)
-    text(d, 720, 317, "«include»", 13, anchor="middle")
-    multiline(d, 765, 188, ["{annulation autorisée si statut", "EN_ATTENTE ou CONFIRMEE}"], 13, gap=19)
-    connector(d, [(665, 90), (725, 90), (725, 174), (752, 174)], dashed=True, color=LIGHT_LINE)
-    multiline(d, 755, 515, ["Préconditions des cas client :", "session ouverte et profil client.", "Le catalogue reste accessible", "à tous les utilisateurs."], 13, gap=22)
+    d = base("Diagramme de cas d'utilisation", "MANUGOM Stock — parcours public et espace client", 1600, 1260)
+    d.add(Rect(420, 70, 1130, 1090, fillColor=PAPER, strokeColor=LINE, strokeWidth=1.2))
+    text(d, 442, 1130, "MANUGOM Stock", 17, bold=True)
+
+    actor(d, 220, 980, "Utilisateur du site")
+    actor(d, 220, 710, "Visiteur non connecté")
+    actor(d, 220, 340, "Client connecté")
+
+    # Les deux rôles spécialisés héritent des associations de l'acteur commun.
+    # Les liaisons restent en dehors de la frontière et des associations métier.
+    connector(d, [(198, 740), (65, 740), (65, 1010), (198, 1010)])
+    triangle_head(d, 65, 1010, 198, 1010, size=20)
+    connector(d, [(198, 370), (35, 370), (35, 905), (65, 905)])
+
+    public = [(1050, "Consulter et rechercher\ndans le catalogue"),
+              (950, "Contacter le magasin /\ndemander un devis")]
+    guest = [(790, "Créer un compte client"), (690, "Se connecter")]
+    client = [(540, "Gérer son profil"), (440, "Gérer son panier"),
+              (340, "Passer une commande"), (240, "Consulter ses commandes"),
+              (140, "Annuler sa commande")]
+
+    for source_y, cases in [(1010, public), (740, guest), (370, client)]:
+        for y, label in cases:
+            connector(d, [(242, source_y), (590, y)])
+            use_case(d, 800, y, label, width=420, height=72)
+
+    use_case(d, 1310, 340, "Vérifier le panier\net la disponibilité", width=380, height=72)
+    connector(d, [(1010, 340), (1120, 340)], dashed=True, open_arrow=True)
+    text(d, 1065, 360, "«include»", 14, anchor="middle")
+
+    multiline(d, 1130, 535, ["Précondition des cas client :", "session ouverte et compte client."], 14, gap=23)
+    multiline(d, 1130, 170, ["{Annulation autorisée si statut", "EN_ATTENTE ou CONFIRMEE}", "Le service vérifie la transition."], 14, gap=23)
+    connector(d, [(1010, 140), (1080, 140), (1080, 165), (1115, 165)], dashed=True)
     return d
 
 

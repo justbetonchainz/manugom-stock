@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1250" height="1040" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1250 1040" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1250" height="1040"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1040)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1250" height="1040" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="1007" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2014) scale(1,-1)">Diagramme de classes - approvisionnements</text>
+			<text x="28" y="984" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1968) scale(1,-1)">Le fournisseur est lié à ses marques et à ses approvisionnements.</text>
+			<rect x="55" y="760" width="360" height="190" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 55,910 L 415,910 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="185.8785" y="924" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1848) scale(1,-1)">Fournisseur</text>
+			<text x="67" y="887" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1774) scale(1,-1)">id : Integer {PK}</text>
+			<text x="67" y="864" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1728) scale(1,-1)">raison_sociale : String {unique}</text>
+			<text x="67" y="841" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1682) scale(1,-1)">telephone, email : String</text>
+			<text x="67" y="818" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1636) scale(1,-1)">actif : Boolean</text>
+			<rect x="55" y="415" width="360" height="230" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 55,605 L 415,605 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="155.185" y="619" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1238) scale(1,-1)">Approvisionnement</text>
+			<text x="67" y="582" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1164) scale(1,-1)">id : Integer {PK}</text>
+			<text x="67" y="559" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1118) scale(1,-1)">numero : String {unique}</text>
+			<text x="67" y="536" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1072) scale(1,-1)">statut : StatutApprovisionnement</text>
+			<text x="67" y="513" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1026) scale(1,-1)">montant_total : Decimal</text>
+			<text x="67" y="490" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,980) scale(1,-1)">recu_le : DateTime [0..1]</text>
+			<text x="67" y="467" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,934) scale(1,-1)">+ recalculer_total() : Decimal</text>
+			<rect x="55" y="100" width="360" height="180" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 55,240 L 415,240 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="132.5155" y="254" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,508) scale(1,-1)">LigneApprovisionnement</text>
+			<text x="67" y="217" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,434) scale(1,-1)">id : Integer {PK}</text>
+			<text x="67" y="194" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,388) scale(1,-1)">quantite : Integer</text>
+			<text x="67" y="171" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,342) scale(1,-1)">prix_achat : Decimal</text>
+			<text x="67" y="148" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,296) scale(1,-1)">/ sous_total : Decimal</text>
+			<rect x="845" y="760" width="310" height="155" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 845,875 L 1155,875 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="969.774" y="889" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1778) scale(1,-1)">Marque</text>
+			<text x="857" y="852" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1704) scale(1,-1)">id : Integer {PK}</text>
+			<text x="857" y="829" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1658) scale(1,-1)">nom : String {unique}</text>
+			<text x="857" y="806" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1612) scale(1,-1)">actif : Boolean</text>
+			<rect x="845" y="100" width="310" height="205" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 845,265 L 1155,265 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="979.2175" y="279" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,558) scale(1,-1)">Pneu</text>
+			<text x="857" y="242" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,484) scale(1,-1)">id : Integer {PK}</text>
+			<text x="857" y="219" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,438) scale(1,-1)">reference_interne : String</text>
+			<text x="857" y="196" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,392) scale(1,-1)">prix_achat : Decimal</text>
+			<text x="857" y="173" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,346) scale(1,-1)">quantite_disponible : Integer</text>
+			<text x="857" y="150" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,300) scale(1,-1)">seuil_minimum : Integer</text>
+			<rect x="845" y="470" width="310" height="145" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 845,575 L 1155,575 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="981.1045" y="589" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1178) scale(1,-1)">User</text>
+			<text x="857" y="552" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1104) scale(1,-1)">id : Integer {PK}</text>
+			<text x="857" y="529" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1058) scale(1,-1)">username : String {unique}</text>
+			<text x="857" y="506" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1012) scale(1,-1)">role : Role</text>
+			<polyline points="230 760, 230 645" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="240" y="735.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1470) scale(1,-1)">1</text>
+			<text x="240" y="662.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1324) scale(1,-1)">0..*</text>
+			<polyline points="230 415, 230 280" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="230 415, 235 405, 230 395, 225 405" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,14%,14%); fill-rule: evenodd;"/>
+			<text x="240" y="377.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,754) scale(1,-1)">1</text>
+			<text x="240" y="297.0" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,594) scale(1,-1)">0..*</text>
+			<polyline points="845 190, 415 190" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="820.386" y="203" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,406) scale(1,-1)">1</text>
+			<text x="426.2435" y="203" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,406) scale(1,-1)">0..*</text>
+			<polyline points="415 840, 845 840" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="426.2435" y="853" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1706) scale(1,-1)">0..*</text>
+			<text x="814.2435" y="853" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1706) scale(1,-1)">0..*</text>
+			<text x="573.979" y="862" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1724) scale(1,-1)">marques_fournies</text>
+			<polyline points="845 540, 415 540" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="820.386" y="553" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1106) scale(1,-1)">1</text>
+			<text x="426.2435" y="553" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1106) scale(1,-1)">0..*</text>
+			<text x="591.871" y="562" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1124) scale(1,-1)">responsable</text>
+			<polyline points="1110 760, 1200 760, 1200 240, 1155 240" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="1127.386" y="773" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1546) scale(1,-1)">1</text>
+			<text x="1166.2435" y="253" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,506) scale(1,-1)">0..*</text>
+		</g>
+	</g>
+</svg>

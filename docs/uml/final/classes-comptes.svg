@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1250" height="850" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1250 850" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1250" height="850"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-850)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1250" height="850" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="817" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1634) scale(1,-1)">Diagramme de classes - comptes et profil client</text>
+			<text x="28" y="794" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1588) scale(1,-1)">User porte le rôle ; Client représente la relation commerciale.</text>
+			<rect x="65" y="390" width="330" height="270" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 65,620 L 395,620 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="211.1045" y="634" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1268) scale(1,-1)">User</text>
+			<text x="77" y="597" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1194) scale(1,-1)">id : Integer {PK}</text>
+			<text x="77" y="574" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1148) scale(1,-1)">username : String {unique}</text>
+			<text x="77" y="551" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1102) scale(1,-1)">email : String {unique}</text>
+			<text x="77" y="528" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1056) scale(1,-1)">role : Role</text>
+			<text x="77" y="505" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1010) scale(1,-1)">is_active : Boolean</text>
+			<text x="77" y="482" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,964) scale(1,-1)">/ is_manager : Boolean</text>
+			<rect x="815" y="490" width="350" height="190" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 815,640 L 1165,640 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="926.7090000000001" y="654" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1308) scale(1,-1)">ProfilUtilisateur</text>
+			<text x="827" y="617" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1234) scale(1,-1)">id : Integer {PK}</text>
+			<text x="827" y="594" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1188) scale(1,-1)">telephone : String</text>
+			<text x="827" y="571" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1142) scale(1,-1)">adresse, ville : String</text>
+			<text x="827" y="548" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1096) scale(1,-1)">photo : Image [0..1]</text>
+			<rect x="815" y="140" width="350" height="240" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 815,340 L 1165,340 Z" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<text x="966.387" y="354" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,708) scale(1,-1)">Client</text>
+			<text x="827" y="317" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,634) scale(1,-1)">id : Integer {PK}</text>
+			<text x="827" y="294" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,588) scale(1,-1)">numero : String {unique}</text>
+			<text x="827" y="271" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,542) scale(1,-1)">nom, prenom : String</text>
+			<text x="827" y="248" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,496) scale(1,-1)">email : String {unique}</text>
+			<text x="827" y="225" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,450) scale(1,-1)">type_client : TypeClient</text>
+			<text x="827" y="202" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,404) scale(1,-1)">actif : Boolean</text>
+			<polyline points="395 585, 815 585" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="412.386" y="598" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1196) scale(1,-1)">1</text>
+			<text x="783.158" y="598" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1196) scale(1,-1)">0..1</text>
+			<polyline points="395 440, 575 440, 575 280, 815 280" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<text x="405.158" y="453" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,906) scale(1,-1)">0..1</text>
+			<text x="783.158" y="293" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,586) scale(1,-1)">0..1</text>
+			<text x="65" y="260" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,520) scale(1,-1)">Role = { ADMIN, EMPLOYEE, CLIENT }</text>
+			<text x="65" y="233" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,466) scale(1,-1)">Un client saisi par la gestion peut</text>
+			<text x="65" y="206" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,412) scale(1,-1)">exister sans compte de connexion.</text>
+			<text x="65" y="179" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,358) scale(1,-1)">La relation utilisateur-client est</text>
+			<text x="65" y="152" style="font-family: Helvetica; font-size: 15px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,304) scale(1,-1)">facultative et unique des deux côtés.</text>
+		</g>
+	</g>
+</svg>

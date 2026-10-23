@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1350" height="1110" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1350 1110" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1350" height="1110"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1110)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1350" height="1110" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="28" y="1077" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,2154) scale(1,-1)">Architecture applicative Django (MVT)</text>
+			<text x="28" y="1054" style="font-family: Helvetica; font-size: 12px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,2108) scale(1,-1)">Vue logique des requêtes, du traitement métier, de la présentation et de la persistance.</text>
+			<rect x="320" y="125" width="985" height="855" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd; stroke-dasharray: 7, 4;"/>
+			<text x="340" y="952" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1904) scale(1,-1)">Application Django</text>
+			<rect x="35" y="615" width="225" height="150" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="103.572" y="738" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1476) scale(1,-1)">Navigateur</text>
+			<text x="108.21600000000001" y="710" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1420) scale(1,-1)">HTML / CSS</text>
+			<text x="79.026" y="687" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1374) scale(1,-1)">Bootstrap / JavaScript</text>
+			<rect x="385" y="790" width="320" height="120" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="491.16949999999997" y="883" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1766) scale(1,-1)">Routage URL</text>
+			<text x="503.763" y="855" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1710) scale(1,-1)">config/urls.py</text>
+			<text x="472.249" y="832" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1664) scale(1,-1)">urls.py des applications</text>
+			<rect x="385" y="545" width="320" height="155" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="493.5155" y="673" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1346) scale(1,-1)">Vues Django</text>
+			<text x="473.033" y="645" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1290) scale(1,-1)">Session et permissions</text>
+			<text x="464.472" y="622" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1244) scale(1,-1)">Validation des formulaires</text>
+			<text x="462.519" y="599" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1198) scale(1,-1)">Coordination du traitement</text>
+			<rect x="850" y="790" width="355" height="120" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="985.4590000000001" y="883" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1766) scale(1,-1)">Templates</text>
+			<text x="977.317" y="855" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1710) scale(1,-1)">templates/*.html</text>
+			<text x="961.35" y="832" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1664) scale(1,-1)">Données du contexte</text>
+			<rect x="850" y="545" width="355" height="155" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="964.6595" y="673" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1346) scale(1,-1)">Services métier</text>
+			<text x="967.986" y="645" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1290) scale(1,-1)">ServiceCommande</text>
+			<text x="986.655" y="622" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1244) scale(1,-1)">ServiceStock</text>
+			<text x="944.249" y="599" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1198) scale(1,-1)">ServiceApprovisionnement</text>
+			<rect x="850" y="270" width="355" height="150" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="966.572" y="393" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,786) scale(1,-1)">Modèles / ORM</text>
+			<text x="962.134" y="365" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,730) scale(1,-1)">Entités et contraintes</text>
+			<text x="950.073" y="342" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,684) scale(1,-1)">Requêtes et transactions</text>
+			<text x="945.3969999999999" y="319" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,638) scale(1,-1)">Agrégations du dashboard</text>
+			<rect x="385" y="270" width="320" height="120" style="stroke: rgb(14%,14%,14%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="517.6045" y="363" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,726) scale(1,-1)">SQLite</text>
+			<text x="515.04" y="335" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,670) scale(1,-1)">db.sqlite3</text>
+			<text x="468.749" y="312" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,624) scale(1,-1)">Persistance relationnelle</text>
+			<polyline points="260 735, 310 735, 310 850, 385 850" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="385 850, 376.3397 855, 376.3397 845" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="235.533" y="886" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1772) scale(1,-1)">1. Requête HTTP</text>
+			<polyline points="545 790, 545 700" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="545 700, 550 708.6603, 540 708.6603" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="558" y="749" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1498) scale(1,-1)">2. Vue ciblée</text>
+			<polyline points="705 620, 850 620" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="850 620, 841.3397 625, 841.3397 615" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="724.9805" y="638" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1276) scale(1,-1)">3. Mutation métier</text>
+			<polyline points="1030 545, 1030 420" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1030 420, 1035 428.6603, 1025 428.6603" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="1042" y="481" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,962) scale(1,-1)">4. ORM</text>
+			<polyline points="850 340, 705 340" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="705 340, 713.6603 335, 713.6603 345" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="755.209" y="359" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,718) scale(1,-1)">5. SQL</text>
+			<polyline points="705 307, 850 307" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="841.3397 312, 850 307, 841.3397 302" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<polyline points="1205 350, 1265 350, 1265 615, 1205 615" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="1213.66 610, 1205 615, 1213.66 620" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="1217.373" y="455" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,910) scale(1,-1)">résultat</text>
+			<polyline points="850 577, 705 577" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="713.6603 572, 705 577, 713.6603 582" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="735.8225" y="559" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1118) scale(1,-1)">résultat métier</text>
+			<polyline points="650 700, 650 740, 1025 740, 1025 790" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1025 790, 1020 781.3397, 1030 781.3397" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="769.5465" y="756" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1512) scale(1,-1)">6. render(template, contexte)</text>
+			<polyline points="850 840, 765 840, 765 500, 480 500, 480 545" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="475 536.3397, 480 545, 485 536.3397" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="781" y="782" style="font-family: Helvetica-Oblique; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1564) scale(1,-1)">HTML</text>
+			<polyline points="385 590, 190 590, 190 615" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polyline points="185 606.3397, 190 615, 195 606.3397" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.2; fill: None; fill-rule: evenodd;"/>
+			<text x="148.97899999999998" y="570" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,1140) scale(1,-1)">7. Réponse HTTP</text>
+			<polyline points="590 545, 590 455, 930 455, 930 420" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1.25; fill: None; fill-rule: evenodd;"/>
+			<polygon points="930 420, 935 428.6603, 925 428.6603" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="670.1605" y="434" style="font-family: Helvetica; font-size: 13px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,868) scale(1,-1)">Lecture directe par les vues</text>
+			<text x="35" y="69" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,138) scale(1,-1)">Les services sont utilisés pour les écritures métier sensibles. Les vues de consultation interrogent aussi directement l'ORM.</text>
+			<text x="35" y="45" style="font-family: Helvetica; font-size: 14px;fill: rgb(14%,14%,14%); stroke:none;" transform="translate(0,90) scale(1,-1)">Les templates rendent la présentation ; ils n'accèdent pas directement à SQLite. Les retours sont indiqués en pointillés.</text>
+		</g>
+	</g>
+</svg>
