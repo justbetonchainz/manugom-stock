@@ -64,7 +64,7 @@ Les services `ServiceCommande`, `ServiceStock` et `ServiceApprovisionnement` reg
 
 Dans le diagramme public, le visiteur et le client spécialisent l'acteur « Utilisateur du site ». Ils partagent la consultation du catalogue et le contact avec le magasin ; la création de compte appartient uniquement au visiteur non connecté.
 
-Les sources et les commandes de génération sont décrites dans [la documentation UML](docs/uml/README.md).
+La [documentation UML](docs/uml/README.md) décrit les figures disponibles et la généralisation des acteurs.
 
 ## Vérifications
 
@@ -79,5 +79,3 @@ La suite comprend 34 tests de modèles, de services, de permissions et de parcou
 ## Limites
 
 La configuration fournie sert au développement local. SQLite simplifie l'installation, mais n'est pas adapté à une forte concurrence d'écriture. Le paiement et la livraison sont suivis par des états métier ; aucun prestataire externe n'est connecté. Les courriels sont écrits dans la console et les boutons Appeler et WhatsApp ouvrent respectivement un lien `tel:` et `wa.me`.
-
-Les deux visuels de démonstration du showroom et du pneu ont été générés ; leur provenance est conservée dans [le journal de réalisation](docs/rapport/journal-realisation.md).

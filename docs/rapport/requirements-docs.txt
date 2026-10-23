@@ -1,5 +1,0 @@
--r ../../requirements.txt
-reportlab
-python-docx
-pypdf
-pypdfium2
