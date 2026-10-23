@@ -12,7 +12,3 @@ tmp/
 .vscode/
 .DS_Store
 
-# Anciennes versions locales du rapport
-output/pdf/Rapport_PFA_MANUGOM_Stock.pdf
-output/docx/Rapport_PFA_MANUGOM_Stock.docx
-
