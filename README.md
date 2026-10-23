@@ -1,5 +1,7 @@
 # MANUGOM Stock
 
+[Consulter le rapport du projet (PDF)](output/pdf/Rapport_MANUGOM_Stock.pdf)
+
 Application Django pour gérer un stock de pneus, les commandes clients et les approvisionnements.
 
 Le catalogue est public. Les clients peuvent créer un compte, passer une commande et suivre son état. Les employés disposent d'un espace de gestion du stock et des commandes ; l'administrateur gère également les utilisateurs.
